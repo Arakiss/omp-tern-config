@@ -1,10 +1,8 @@
 /* Scope to Tern chrome and omp's existing native surfaces. Text colors stay native. */
 #tabbar {
-  background-color: rgba(6, 16, 26, 0.94);
   border-bottom: 1px solid #30dfcf;
 }
 #tabbar .tt.on {
-  background-color: rgba(18, 49, 63, 0.96);
   border: 1px solid #30dfcf;
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(48, 223, 207, 0.20);
@@ -14,7 +12,6 @@
   border-radius: 3px;
 }
 .tn-stage .tn-pane .tn-head {
-  background-color: rgba(6, 16, 26, 0.94);
   border-bottom: 1px solid rgba(48, 223, 207, 0.55);
 }
 .tn-stage .sf-card {

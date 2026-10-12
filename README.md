@@ -7,11 +7,11 @@
 ![Platform: macOS](https://img.shields.io/badge/platform-macOS-silver.svg)
 ![Python: standard library](https://img.shields.io/badge/Python-standard_library-blue.svg)
 
-[Quick start](#quick-start) · [Wallpaper CLI](#wallpaper-controls-and-rotation) · [Optional HUD](#optional-retro-future-hud) · [Daily controls](#daily-controls) · [Computer use](docs/computer-use.md) · [Changelog](CHANGELOG.md)
+[Quick start](#quick-start) · [English demo](#reproduce-the-english-demo) · [Wallpaper CLI](#wallpaper-controls-and-rotation) · [Optional HUD](#optional-retro-future-hud) · [Computer use](docs/computer-use.md) · [Changelog](CHANGELOG.md)
 
-![omp + Tern Config with the Replicant visual pack](assets/preview.png)
+[![Real English omp coding session in native Tern, with original visual packs](assets/demo.gif)](assets/demo.mp4)
 
-*Replicant visual pack in Tern. This preview is a styled shell demonstration, not a fabricated agent run.*
+*A real English coding run, replayed through Tern's native renderer with staged wallpaper changes. Not a performance benchmark. [MP4 video](assets/demo.mp4) · [Static poster](assets/demo-poster.png) · [Original shell preview](assets/preview.png).*
 
 Configuration first: native agent surfaces, parallel workers, real tools, and visible resource usage. **Replicant** is the optional Blade Runner-inspired visual pack, not the project's identity.
 
@@ -202,12 +202,37 @@ The HUD adds cyan tab/pane edges and subtle magenta card accents. It does not ch
 
 The native command palette also exposes **Enable retro-future HUD** and **Disable retro-future HUD**. CLI changes reload Tern's native plugins so open windows use the saved mode; palette actions style the current window immediately, with the saved mode used on reload or subsequent focus events.
 
+## Reproduce the English demo
+
+The animation shows omp adding Unicode case-insensitive search and JSON output to [Orbit](demo/project/orbit.py), then running two real isolated tests and CLI checks. The [vetted native surface trace](demo/orbit.out.jsonl) contains the captured output from that run, not invented tool results. The replay changes Ghost in the Shell, Cyberpunk, Replicant and Dunes backgrounds without recording your desktop or requesting a model.
+
+Install Tern separately. For media tooling on macOS:
+
+```sh
+brew install ffmpeg gifsicle
+python3 demo/record.py --output /tmp/omp-tern-native.mp4 --hud
+python3 demo/encode.py /tmp/omp-tern-native.mp4 \
+  --gif assets/demo.gif --video assets/demo.mp4 --optimize-gif --overwrite
+```
+
+`--hud` opts into static accents only inside the isolated renderer; omit it for normal chrome. `--overwrite` deliberately replaces this clone's existing demo assets. GIF optimization is optional but reduces size without reducing resolution or frame timing; it uses mild lossy compression. Without `--optimize-gif`, only FFmpeg is required.
+
+The published animation is about 24 seconds at 1280 × 800. The MP4 uses H.264/yuv420p with faststart and no audio; use the smaller video for sharing on X. The GIF loops and samples at a nominal 15 fps. Readable tool results and code remain native Tern surfaces, not a VHS terminal imitation. [Charm VHS](https://github.com/charmbracelet/vhs) is useful for conventional shell/TUI recordings; this example uses Tern's own recorder to retain its actual interface.
+
+Check the example independently:
+
+```sh
+python3 -m unittest discover -s demo/project -v
+python3 demo/project/orbit.py list --search 'CAFÉ' --json
+```
+
+
 
 ## Privacy and limits
 
-- Only curated preset JSON, plugin code and public assets are shipped. No auth files, chat sessions, databases, shell history, host lists, email addresses or machine identifiers.
+- Only curated presets, plugin code, public assets and a vetted public-example surface trace are shipped. No auth files, private chats, databases, shell history, host lists, email addresses or machine identifiers.
 - Existing credentials are never read or copied by the installer. Settings backups stay on your machine.
-- Enabling omp's desktop prelude does **not** grant Screen Recording or Accessibility. CuaDriver and Tern have separate macOS permission identities. CUA's live capture and AX were verified; a fresh native omp session confirmed Tern's input and AX permissions granted, while native capture was still denied. Adding the missing Screen Recording entry requires the user's administrator authentication. Neither the installer nor an agent auto-confirms those prompts.
+- Enabling omp's desktop prelude does **not** grant Screen Recording or Accessibility. CuaDriver and Tern have separate macOS permission identities. CUA capture and AX were verified. A fresh native omp session subsequently reported capture/input/AX permissions `granted`, and an exact Tern window capture was saved and inspected. New machines still need their own macOS authorization; neither the installer nor an agent auto-confirms security prompts.
 - Installers don't download binaries, install plugins from the network, publish repositories or send posts.
 - Disabling approvals is not a sandbox. Review the presets before installation.
 

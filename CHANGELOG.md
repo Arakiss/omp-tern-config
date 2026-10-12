@@ -13,6 +13,10 @@
 - Added the opt-in native retro-future HUD plugin and `tern-ui on|off|status`; disabling it restores existing chrome without modifying preferences, models or wallpaper.
 - Kept input styling native and added a small opaque progress strip for readability without obscuring the entire background.
 - Reworked the README around a short purpose, genuine preview, 60-second tour, command reference, visible wallpaper thumbnails and explicit limits, following patterns from Arakiss's public projects.
+- Added a real English Orbit coding-session trace, native Tern replay/recording script, high-quality looping GIF, H.264 video and an actual edit-step poster; no private desktop capture or invented tool results are published.
+- Added reproducible FFmpeg/Gifsicle media encoding and isolated Orbit example tests to CI; the demo is explicitly a staged replay, not a benchmark.
+- Retained native theme backgrounds in HUD chrome to avoid dark forced fills on light themes; kept the live terminal's HUD and periodic rotation disabled.
+- Verified that native omp capture, input and AX permissions are now granted, and inspected a real exact-window native capture in a fresh session; CUA remains separately configured.
 
 ## 1.2.0 — 2026-10-12
 

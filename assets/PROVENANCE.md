@@ -21,3 +21,12 @@ Cyberpunk, Ghost in the Shell and Retro Future were recomposed using their origi
 The repository's MIT permission grant applies to the assets to the extent contributors hold applicable rights. AI-generated images may not qualify for copyright protection in every jurisdiction. No affiliation with or endorsement by the respective film, series or game rights holders, omp, Tern or OpenAI is implied.
 
 `assets/preview.png` is rendered by Tern's real headless renderer using the Replicant pack. Its text is a demonstration, not a benchmark or fabricated agent session. Private CUA screenshots, process identifiers and authentication dialogs are not included.
+
+## English native coding demo
+
+`assets/demo.gif`, `assets/demo.mp4` and `assets/demo-poster.png` derive from Tern's real headless renderer replaying a captured **omp 18.10.3** session on **Tern 0.8.3**. The isolated Orbit task added Unicode casefold search and JSON output; two real unittest cases and the CLI were executed successfully. `demo/project/` contains that resulting example and tests.
+
+`demo/orbit.out.jsonl` is the vetted outbound native surface trace of the real run. Input/ack records were removed; it was checked for home-directory paths, email addresses and credential markers. Private desktop screenshots, authorization dialogs, other conversations and auth/config backups are excluded. The replay's wallpaper transitions and end holds are staged; model metrics in its surfaces are recorded observations from one small run, not a benchmark.
+
+The native recording was rendered at 1440 × 900; the published GIF and MP4 are 1280 × 800, about 24.27 seconds. FFmpeg 8.1 encoded the H.264/yuv420p/faststart video and nominal-15-fps looping GIF; Gifsicle 1.97 optimized the GIF with mild `lossy=20`, preserving dimensions and timing. The poster is an actual frame from the edit step. `demo/record.py` and `demo/encode.py` reproduce the render/encoding without a new model request or desktop capture.
+
