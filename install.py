@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+"""Install Replicant Deck without copying credentials or replacing unrelated settings."""
+import argparse
+import copy
+from datetime import datetime, timezone
+import json
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import tempfile
+
+ROOT = Path(__file__).resolve().parent
+
+
+def merge(base, patch):
+    result = copy.deepcopy(base)
+    for key, value in patch.items():
+        if isinstance(value, dict) and isinstance(result.get(key), dict):
+            result[key] = merge(result[key], value)
+        else:
+            result[key] = copy.deepcopy(value)
+    return result
+
+
+def command(*args):
+    return subprocess.check_output(args, text=True).strip()
+
+
+def atomic_json(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    mode = path.stat().st_mode & 0o777 if path.exists() else 0o600
+    with tempfile.NamedTemporaryFile(mode="w", dir=path.parent, delete=False) as handle:
+        temporary = Path(handle.name)
+        try:
+            json.dump(value, handle, indent=2, ensure_ascii=False)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+            temporary.chmod(mode)
+            os.replace(temporary, path)
+        finally:
+            temporary.unlink(missing_ok=True)
+
+
+def install(autonomous=False, dry_run=False):
+    for binary in ("omp", "tern"):
+        if not shutil.which(binary):
+            raise RuntimeError(f"Install {binary} and put it on PATH first.")
+    omp_patch = json.loads((ROOT / "omp/settings.json").read_text())
+    tern_patch = json.loads((ROOT / "tern/settings.json").read_text())
+    if autonomous:
+        omp_patch["tools.approvalMode"] = "yolo"
+        tern_patch["paste"] = {"confirm": False}
+
+    omp_dir = Path(command("omp", "config", "path"))
+    plugins_dir = Path(command("tern", "plugin", "dir"))
+    tern_settings = plugins_dir.parent / "settings.json"
+    existing = json.loads(tern_settings.read_text()) if tern_settings.exists() else {}
+    if not isinstance(existing, dict):
+        raise ValueError(f"Expected a JSON object in {tern_settings}")
+    merged = merge(existing, tern_patch)
+    current_roles = json.loads(command("omp", "config", "get", "modelRoles", "--json"))["value"]
+    omp_patch["modelRoles"] = merge(current_roles, omp_patch["modelRoles"])
+    destination = plugins_dir / "replicant-deck"
+    if destination.is_symlink():
+        raise RuntimeError(f"Refusing to replace a linked plugin: {destination}")
+
+    print(f"omp settings: {omp_dir}")
+    print(f"Tern settings: {tern_settings}")
+    print(f"Wallpaper plugin: {destination}")
+    print(f"Approval mode: {'autonomous (yolo)' if autonomous else 'unchanged'}")
+    if dry_run:
+        print("Dry run: no files changed.")
+        return
+
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    backup = plugins_dir.parent / "replicant-deck-backups" / stamp
+    backup.mkdir(parents=True, mode=0o700)
+    for filename in ("config.yml", "config.yaml"):
+        source = omp_dir / filename
+        if source.exists():
+            shutil.copy2(source, backup / filename)
+    if tern_settings.exists():
+        shutil.copy2(tern_settings, backup / "settings.json")
+    if destination.exists():
+        shutil.copytree(destination, backup / "plugin")
+    print(f"Backup: {backup}")
+
+    # OMP owns YAML validation, locking and preservation of unrelated keys.
+    for key, value in omp_patch.items():
+        command("omp", "config", "set", key, json.dumps(value))
+    atomic_json(tern_settings, merged)
+    destination.mkdir(parents=True, exist_ok=True)
+    for name in ("plugin.toml", "window.luau", "wallpaper.webp"):
+        shutil.copy2(ROOT / "tern/plugin" / name, destination / name)
+    result = json.loads(command("tern", "plugin", "reload", "--json"))
+    own = next((plugin for plugin in result["plugins"] if plugin["id"] == "replicant-deck"), None)
+    if not own or own["status"] != "ready":
+        raise RuntimeError(f"Plugin did not load: {json.dumps(result)}")
+    if result.get("problems"):
+        print(f"Other plugin problems: {json.dumps(result['problems'])}", file=sys.stderr)
+    try:
+        command("tern", "ctl", "plugins", "run", "reload_config")
+    except subprocess.CalledProcessError as error:
+        print(f"Settings saved; live reload unavailable ({error}). Reopen Tern.", file=sys.stderr)
+    print("Replicant Deck installed. Provider logins and macOS permissions remain yours.")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--dry-run", action="store_true", help="Print targets without changing files")
+    parser.add_argument("--autonomous", action="store_true", help="Enable omp yolo mode and disable Tern paste confirmations")
+    args = parser.parse_args()
+    try:
+        install(args.autonomous, args.dry_run)
+    except (OSError, ValueError, RuntimeError, subprocess.CalledProcessError) as error:
+        parser.exit(1, f"Installation failed: {error}\n")
+
+
+if __name__ == "__main__":
+    main()

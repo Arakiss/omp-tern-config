@@ -1,0 +1,6 @@
+schema = 1
+id = "replicant-deck"
+name = "Replicant Deck"
+version = "1.0.0"
+description = "A cinematic, readable cockpit for omp + Tern."
+window = "window.luau"

@@ -1,0 +1,12 @@
+{
+  "theme": "Dark",
+  "theme_dark": "titanium",
+  "contrast": "Always",
+  "font_size": 14,
+  "ui_font_size": 13,
+  "adjust_cell_height": "8%",
+  "pane_headers": "Split",
+  "status_bar": true,
+  "material": "Solid",
+  "surface_chat": "Reader"
+}

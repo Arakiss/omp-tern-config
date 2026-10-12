@@ -1,0 +1,27 @@
+{
+  "modelRoles": {
+    "default": "anthropic/claude-opus-5-5",
+    "smol": "anthropic/claude-sonnet-5-5",
+    "slow": "openai-codex/gpt-6.1-sol:high",
+    "plan": "anthropic/claude-opus-5-5",
+    "image": "openai-codex/gpt-image-2"
+  },
+  "symbolPreset": "nerd",
+  "composer.shape": "claude",
+  "composer.tokenRate": true,
+  "theme.dark": "titanium",
+  "theme.light": "light",
+  "generate_image.enabled": true,
+  "computer.enabled": true,
+  "github.enabled": true,
+  "security.enabled": true,
+  "task.enableLsp": true,
+  "task.enableEffort": true,
+  "task.showResolvedModelBadge": true,
+  "task.maxConcurrency": 8,
+  "display.showTokenUsage": true,
+  "display.showTurnTime": true,
+  "display.subagentLivePreview": true,
+  "error.notify": "on",
+  "statusLine.transparent": true
+}
