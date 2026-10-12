@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0 — 2026-10-12
+
+- Renamed the repository and public identity to `omp-tern-config`; Replicant is now only a visual pack.
+- Added optional local CUA Driver integration over stdio MCP, preserving other servers and the existing daemon's security mode.
+- Verified a real CUA capture through omp's MCP transport, plus AX observation and native UI navigation.
+- Installed a Tern-native attention skill; ignored the obsolete cmux skill while preserving other ignored entries. Verified the waiting event in Tern's inbox.
+- Added original Dunes and Grid image packs and `--wallpaper-only` switching that leaves functional configuration untouched.
+- Updated the public preview, image provenance and computer-use permission documentation.
+
 ## 1.0.0 — 2026-10-12
 
 - Curated omp + Tern presets with readable Titanium styling and visible agent resource usage.

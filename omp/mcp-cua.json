@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cua-driver": {
+      "type": "stdio",
+      "command": "cua-driver",
+      "args": ["mcp"],
+      "enabled": true,
+      "instructions": false,
+      "timeout": 30000
+    }
+  }
+}
