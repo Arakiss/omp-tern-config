@@ -1,25 +1,62 @@
 # omp + Tern Config — AI Coding Harness & Terminal Setup
 
-**Portable configuration and extensions for the omp coding harness and Tern terminal.**
+**A ready-to-use setup for native AI coding in omp and Tern: readable terminal presets, parallel agents, real tools and original wallpapers.**
+
+[![Checks](https://github.com/Arakiss/omp-tern-config/actions/workflows/check.yml/badge.svg)](https://github.com/Arakiss/omp-tern-config/actions/workflows/check.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+![Platform: macOS](https://img.shields.io/badge/platform-macOS-silver.svg)
+![Python: standard library](https://img.shields.io/badge/Python-standard_library-blue.svg)
+
+[Quick start](#quick-start) · [Wallpaper CLI](#wallpaper-controls-and-rotation) · [Optional HUD](#optional-retro-future-hud) · [Daily controls](#daily-controls) · [Computer use](docs/computer-use.md) · [Changelog](CHANGELOG.md)
 
 ![omp + Tern Config with the Replicant visual pack](assets/preview.png)
+
+*Replicant visual pack in Tern. This preview is a styled shell demonstration, not a fabricated agent run.*
 
 Configuration first: native agent surfaces, parallel workers, real tools, and visible resource usage. **Replicant** is the optional Blade Runner-inspired visual pack, not the project's identity.
 
 This is a portable configuration pack and wallpaper plugin, **not a terminal emulator, a fork, or an official omp/Tern distribution**. Built on [omp](https://github.com/can1357/oh-my-pi) and Tern. Tern's own installation, access requirements and license still apply.
 
-## Install
+## Why this exists
+
+Keep the coding workflow in omp and Tern's native surfaces instead of layering another terminal or chat wrapper on top. This repository packages the settings, skill and visual plugin so you can reproduce the setup while keeping your own accounts and unrelated configuration.
+
+### What you get
+
+- **Native agent workflow:** model roles, parallel-worker visibility, tool integration and resource usage.
+- **Readable terminal defaults:** Titanium styling, solid chrome, contrast correction and native chat.
+- **Native integrations:** Tern's attention inbox and optional local CUA computer use with explicit authentication boundaries.
+- **Explicit safety boundaries:** preserved approval policy by default, private local backups and no permission bypasses.
+- **Optional visual controls:** nine original packs with `tern-bg set`, `next` and `prev`, plus opt-in macOS rotation.
+- **Reversible futuristic chrome:** static neon tabs and panel accents with `tern-ui on|off|status`; off by default.
+
+## Quick start
 
 Tested on macOS with **omp 18.10.2, Tern 0.8.3, Apple M4 Pro / 24 GB**. Install omp and Tern separately and ensure `omp`, `tern` and `python3` are on PATH. No Python packages are required.
 
-From a clone of this repository:
+### 60-second tour
+
+Clone the public [omp-tern-config repository](https://github.com/Arakiss/omp-tern-config), preview the targets, then install:
 
 ```sh
+git clone https://github.com/Arakiss/omp-tern-config.git
+cd omp-tern-config
 python3 install.py --dry-run
-python3 install.py
+python3 install.py --wallpaper ghost-shell
+export PATH="$HOME/.local/bin:$PATH"
+tern-bg list
+tern-bg next
+tern-bg current
+tern-ui status
 ```
 
-The installer merges the shipped presets into existing settings, preserves unrelated preferences and custom model roles, backs up settings and any existing wallpaper plugin outside the repository, installs the portable image plugin, and requests a live reload. If no window can reload, reopen Tern. Backups are printed by the installer.
+Omit `--wallpaper ghost-shell` to use the default `replicant` pack. From an existing clone, start at the dry-run command.
+
+The installer merges the shipped presets into existing settings, preserves unrelated preferences and custom model roles, backs up settings and any existing wallpaper plugin outside the repository, installs the local wallpaper/HUD plugins and `tern-bg`/`tern-ui` commands, and requests a live reload. A new HUD installation is disabled; reinstalling preserves its existing mode. If live reload fails, reopen Tern. Backups are printed by the installer. A dry run changes no files and installs neither command.
+
+`tern-bg` and `tern-ui` are symlinks at `~/.local/bin/` pointing to this clone's `tern_bg.py` and `tern_ui.py`; unrelated executables at those paths are never overwritten. **Keep the repository available at its installed location**: the commands and rotation need its code and wallpapers. If `~/.local/bin` is not already on PATH, add the `export PATH` line above to your shell configuration, or invoke the commands by their full path. They work from any working directory.
+
+**Wallpaper rotation is opt-in, off by default, and macOS-only.** Installing the pack does not create a periodic schedule. See [wallpaper controls and rotation](#wallpaper-controls-and-rotation) to enable it deliberately.
 
 **Default installation preserves your current approval policy.** For deliberate full agent autonomy:
 
@@ -58,7 +95,8 @@ The installer installs `skills/tern-terminal/SKILL.md` into omp's native skill d
 | Agent tooling | Image generation, desktop prelude, GitHub and security tooling enabled |
 | Delegation | LSP and effort selection for subagents, eight-worker concurrency cap, resolved-model badges and live activity |
 | Resource visibility | Token usage, turn time, token rate and error notifications |
-| Wallpaper | Local Luau plugin; one image read at load, no timers, network requests or external processes |
+| Wallpaper | Local Luau plugin; one image read at load, no plugin timers or network requests; optional macOS LaunchAgent rotation via `tern-bg` |
+| Futuristic chrome | Optional native Luau HUD; static cyan/magenta accents, no continuous animation; on/off without preference changes |
 
 Browser automation, persistent Python/JS eval, AST editing, debugging, skills, archive access and compaction are already enabled in the tested omp defaults. This configuration leaves those defaults intact rather than duplicating them. It does not enable remote session broadcasting, automatic credit-reset redemption, background advisors or memory extraction.
 
@@ -94,34 +132,76 @@ Tern also exposes native file, browser, Git, SQLite, notebook and canvas blocks.
 
 ## Wallpaper and customization
 
-Eight original generated images are included. None is a film still, game screenshot or downloaded promotional asset; see [provenance](assets/PROVENANCE.md).
+Nine original generated images are included. None is a film still, game screenshot or downloaded promotional asset; see [provenance](assets/PROVENANCE.md).
 
 | Pack | Art direction | Preview |
 | --- | --- | --- |
-| `replicant` | Blade Runner-inspired amber architecture and cyan rain | [Image](wallpapers/replicant.webp) |
-| `dunes` | Dune-inspired desert citadel, basalt and eclipsed sunlight | [Image](wallpapers/dunes.webp) |
-| `grid` | Tron-inspired dark digital architecture, reticle and neon portal | [Image](wallpapers/grid.webp) |
-| `tron-ares` | TRON: Ares-inspired black architecture and scarlet light trails | [Image](wallpapers/tron-ares.webp) |
-| `altered-carbon` | Rainy vertical cyber-noir, violet/teal light and a koi hologram | [Image](wallpapers/altered-carbon.webp) |
-| `cyberpunk` | Monsoon megacity, elevated roads, magenta and turquoise neon | [Image](wallpapers/cyberpunk.webp) |
-| `ghost-shell` | Ghost in the Shell-inspired jade harbor, concrete and sea fog | [Image](wallpapers/ghost-shell.webp) |
-| `deus-ex` | Deus Ex-inspired black-and-gold architecture and geometric light | [Image](wallpapers/deus-ex.webp) |
+| `replicant` | Blade Runner-inspired amber architecture and cyan rain | [![Replicant](wallpapers/replicant.webp)](wallpapers/replicant.webp) |
+| `dunes` | Dune-inspired desert citadel, basalt and eclipsed sunlight | [![Dunes](wallpapers/dunes.webp)](wallpapers/dunes.webp) |
+| `grid` | Tron-inspired dark digital architecture, reticle and neon portal | [![Grid](wallpapers/grid.webp)](wallpapers/grid.webp) |
+| `tron-ares` | TRON: Ares-inspired black architecture and scarlet light trails | [![Tron Ares](wallpapers/tron-ares.webp)](wallpapers/tron-ares.webp) |
+| `altered-carbon` | Rainy vertical cyber-noir, violet/teal light and a koi hologram | [![Altered Carbon](wallpapers/altered-carbon.webp)](wallpapers/altered-carbon.webp) |
+| `cyberpunk` | Retro-anime magenta/cyan kiosk, CRT screens and a red motorbike | [![Cyberpunk](wallpapers/cyberpunk.webp)](wallpapers/cyberpunk.webp) |
+| `ghost-shell` | 1995 anime-inspired original cyborg investigator and jade harbor | [![Ghost in the Shell](wallpapers/ghost-shell.webp)](wallpapers/ghost-shell.webp) |
+| `deus-ex` | Deus Ex-inspired black-and-gold architecture and geometric light | [![Deus Ex](wallpapers/deus-ex.webp)](wallpapers/deus-ex.webp) |
+| `retro-future` | Pixel-art CRT workstation, cassette tapes, neon skyline and amber moon | [![Retro Future](wallpapers/retro-future.webp)](wallpapers/retro-future.webp) |
 
-Change only the visual pack, without touching models, permissions, preferences, skills or MCP:
+### Wallpaper controls and rotation
+
+After installation, change only the wallpaper with `tern-bg`. These commands leave omp models and approval policy, MCP, Tern preferences and skills untouched. The installed Tern API reloads native plugins globally; only this pack's wallpaper files are modified. No restart or session close is requested.
+
+| Command | Effect |
+| --- | --- |
+| `tern-bg list` | List the available packs in rotation order |
+| `tern-bg current` | Show the selected pack |
+| `tern-bg set cyberpunk` | Apply a named pack |
+| `tern-bg next` | Advance one pack, wrapping after `retro-future` |
+| `tern-bg prev` | Go back one pack, wrapping before `replicant` |
+| `tern-bg rotate --every 15m` | Opt in to a macOS schedule that advances every 15 minutes |
+| `tern-bg status` | Show the schedule's configured and loaded state |
+| `tern-bg stop` | Remove this project's schedule; leave the current image |
+
+The order is `replicant → dunes → grid → tron-ares → altered-carbon → cyberpunk → ghost-shell → deus-ex → retro-future`, then back to `replicant`. If the command has no saved state, it recognizes the installed image from a previous full installation before advancing.
+
+**Periodic rotation is optional and macOS-only; nothing enables it by default.** To move to the next pack every 15 minutes:
 
 ```sh
-python3 install.py --wallpaper tron-ares --wallpaper-only
-python3 install.py --wallpaper altered-carbon --wallpaper-only
-python3 install.py --wallpaper cyberpunk --wallpaper-only
-python3 install.py --wallpaper ghost-shell --wallpaper-only
-python3 install.py --wallpaper deus-ex --wallpaper-only
+tern-bg rotate --every 15m
+tern-bg status
 ```
 
-`replicant` remains the default. A full install also accepts `--wallpaper PACK`; `--wallpaper-only` cannot be combined with `--cua` or `--autonomous`. Replace a source WebP with your own image smaller than 8 MiB and rerun the corresponding command.
+Intervals accept seconds (`s`), minutes (`m`) or hours (`h`), for example `30s`, `15m` or `2h`. Rotation uses a project-owned user LaunchAgent with `StartInterval`, not a persistent polling process. The schedule captures the active `TERN_CONFIG_DIR` when set, so enable it from the environment of the Tern configuration you want to rotate. Manual changes and scheduled advances share state and serialize transitions.
+
+`StartInterval` is a best-effort macOS schedule: sleep, launchd pacing and system load can delay or coalesce ticks. Use it for ambient wallpaper changes, not a frame-accurate animation timer.
+
+Check whether the schedule is configured and loaded, or stop rotation without changing the current image:
+
+```sh
+tern-bg status
+tern-bg stop
+tern-bg status
+```
+
+`stop` removes only this project's schedule, not unrelated LaunchAgents. A configured schedule and a loaded job are reported separately; a configured job alone does not mean rotation is running. Wallpaper changes do not create timestamped full-plugin backups on every tick.
+
+`replicant` remains the full install's default, and `python3 install.py --wallpaper PACK` still selects its initial pack while merging the functional presets. Use `tern-bg set PACK` for subsequent visual-only changes. Replace a source WebP with your own image smaller than 8 MiB and run `tern-bg set PACK` to apply it.
 
 The red `tron-ares` pack refers to [Disney's TRON: Ares (2025)](https://movies.disney.com/tron-ares), distinct from the older blue/cyan-inspired `grid` pack. All packs are original interpretations, not official franchise assets.
 
-The stylesheet uses a dark base and a cover crop. Wide displays show more architecture; narrower panes crop it. The plugin styles pane backgrounds; native editors and tool cards may paint their own opaque surfaces. Those readable surfaces are intentionally retained.
+The stylesheet uses a dark base and a cover crop. Wide displays show more artwork; narrower panes crop it. Cyberpunk, Ghost in the Shell and Retro Future follow the original Replicant/Dunes composition: a calm naturally dark text area and luminous detail on the right, **without a global dimming filter**. The small progress strip has its own opaque backing; native readable editor and tool-card surfaces are retained.
+
+## Optional retro-future HUD
+
+```sh
+tern-ui on       # Enable static neon chrome
+tern-ui off      # Return to your existing chrome
+tern-ui status   # Show the persisted mode
+```
+
+The HUD adds cyan tab/pane edges and subtle magenta card accents. It does not change text colors, fonts, input styling, model roles, tools, permissions, approval policy, wallpaper or Tern preferences. There are no continuous effects or animation timers. **Off by default; independent of wallpaper rotation.** Disabling removes only the HUD stylesheet, so no preference snapshot or destructive reset is needed.
+
+The native command palette also exposes **Enable retro-future HUD** and **Disable retro-future HUD**. CLI changes reload Tern's native plugins so open windows use the saved mode; palette actions style the current window immediately, with the saved mode used on reload or subsequent focus events.
+
 
 ## Privacy and limits
 
@@ -142,17 +222,20 @@ cua-driver doctor --json
 cua-driver permissions status --json
 ```
 
-The initial installation exercised a real `omp --model anthropic/claude-sonnet-5-5 -p --no-session --no-tools` request and returned `OMP_OK`. Tern loaded the wallpaper plugin with status `ready` and no plugin problems; the image was checked in its real renderer, and the active window's computed background and preferences were inspected via `tern ctl`. The preview is a styled shell demonstration, not a fabricated agent run.
+The initial installation exercised a real `omp --model anthropic/claude-sonnet-5-5 -p --no-session --no-tools` request and returned `OMP_OK`. Tern loaded the wallpaper plugin with status `ready` and no plugin problems; the image was checked in its real renderer, and the active window's computed background and preferences were inspected via `tern ctl`.
 
 ## Restore or remove
 
 The installer prints a timestamped backup directory under Tern's configuration directory, inside `omp-tern-config-backups/`. Restore `config.yml` (or `config.yaml`) to the directory from `omp config path`, and `settings.json` to the parent of `tern plugin dir`. If the backup contains `plugin/`, it is the previous wallpaper plugin.
 
-To remove only the wallpaper:
+Stop rotation before removing the wallpaper, so a scheduled advance cannot reinstall it:
 
 ```sh
+tern-bg stop
 tern plugin remove omp-tern-config-wallpaper
 ```
+
+To remove the wallpaper CLI too, remove only the installed `~/.local/bin/tern-bg` symlink. For the separate HUD, run `tern-ui off`, then `tern plugin remove omp-tern-config-hud`, and remove only its `~/.local/bin/tern-ui` symlink. This does not remove your clone, preferences, credentials or backups.
 
 Reopen Tern or run **Reload settings** from its command palette after restoring preferences. Never publish backups.
 
@@ -166,8 +249,8 @@ A post you can use:
 
 > Tern es la mejor terminal que he probado. Estoy compartiendo omp-tern-config: mi configuración de la terminal Tern y del harness omp, con agentes paralelos, herramientas nativas y fondos originales opcionales. Código abierto, portable y sin credenciales incluidas.
 
-Add your repository URL and `assets/preview.png` when publishing. Nothing is automatically sent to GitHub or X.
+Use https://github.com/Arakiss/omp-tern-config and `assets/preview.png` when publishing. Nothing is automatically sent to GitHub or X.
 
 ## License
 
-MIT for the installer, configuration, plugin and contributed documentation. The generated asset is distributed under the same permission grant to the extent applicable rights exist; see provenance. No affiliation with or endorsement by the film's rights holders, omp, Tern or OpenAI is implied.
+MIT for the installer, configuration, plugins and contributed documentation. Generated assets are distributed under the same permission grant to the extent applicable rights exist; see provenance. No affiliation with or endorsement by the respective franchises' rights holders, omp, Tern or OpenAI is implied.

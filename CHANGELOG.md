@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.3.0 — 2026-10-12
+
+- Added the standard-library `tern-bg` CLI with `list`, `current`, `set`, `next` and `prev` controls over the nine-pack catalogue.
+- Added the original Retro Future pixel-art wallpaper, appended after Deus Ex without changing the earlier catalogue order.
+- Added opt-in macOS wallpaper rotation via a project-owned user LaunchAgent, configurable with `rotate --every 15m` and managed with `status` and `stop`; rotation is off by default.
+- Unified full installation and visual-only commands behind one shared wallpaper application path, with atomic replacements, serialized transitions and bounded wallpaper backups for periodic changes.
+- Full installation now creates a safe `~/.local/bin/tern-bg` symlink; dry runs create nothing, and unrelated executables are never overwritten.
+- Replaced the installer's visual-only mode with the dedicated CLI while retaining full preset merging, private backups, initial wallpaper selection and optional CUA integration.
+- Added public GitHub clone/install instructions and documented PATH, repository availability, ordered wraparound and rotation controls.
+- Reworked Cyberpunk and Ghost in the Shell with nostalgic hand-drawn anime direction and composition referenced to the original Replicant/Dunes packs; preserved bright artwork without a full-image dimming filter.
+- Added the opt-in native retro-future HUD plugin and `tern-ui on|off|status`; disabling it restores existing chrome without modifying preferences, models or wallpaper.
+- Kept input styling native and added a small opaque progress strip for readability without obscuring the entire background.
+- Reworked the README around a short purpose, genuine preview, 60-second tour, command reference, visible wallpaper thumbnails and explicit limits, following patterns from Arakiss's public projects.
+
 ## 1.2.0 — 2026-10-12
 
 - Added five original wallpaper packs: TRON: Ares, Altered Carbon, Cyberpunk, Ghost in the Shell and Deus Ex.
@@ -13,7 +27,7 @@
 - Added optional local CUA Driver integration over stdio MCP, preserving other servers and the existing daemon's security mode.
 - Verified a real CUA capture through omp's MCP transport, plus AX observation and native UI navigation.
 - Installed a Tern-native attention skill; ignored the obsolete cmux skill while preserving other ignored entries. Verified the waiting event in Tern's inbox.
-- Added original Dunes and Grid image packs and `--wallpaper-only` switching that leaves functional configuration untouched.
+- Added original Dunes and Grid image packs and isolated visual switching that leaves functional configuration untouched.
 - Updated the public preview, image provenance and computer-use permission documentation.
 
 ## 1.0.0 — 2026-10-12

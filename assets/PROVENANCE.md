@@ -1,6 +1,6 @@
 # Wallpaper provenance
 
-All eight WebP images in `wallpapers/` are original AI-generated assets, not movie/series frames, game screenshots or downloaded promotional images. No input film stills, logos or recognizable actors were supplied.
+All nine WebP images in `wallpapers/` are original AI-generated assets, not movie/series frames, game screenshots or downloaded promotional images. No input film stills, logos or recognizable actors were supplied.
 
 Generated on 2026-10-12 through omp's `generate_image` tool using the OpenAI Codex image transport. The provider reported `gpt-image-2-codex`.
 
@@ -11,11 +11,12 @@ Generated on 2026-10-12 through omp's `generate_image` tool using the OpenAI Cod
 | `wallpapers/grid.webp` | 1672 × 941 | low | Tron-inspired geometric landscape, restrained cyan grid and amber portal |
 | `wallpapers/tron-ares.webp` | 1672 × 941 | medium | TRON: Ares-inspired black geometry, red light trails and cinematic rain |
 | `wallpapers/altered-carbon.webp` | 1672 × 941 | medium | Altered Carbon-inspired vertical cyber-noir city and a koi hologram |
-| `wallpapers/cyberpunk.webp` | 1672 × 941 | medium | Original rain-soaked megacity, elevated road and magenta/turquoise lights |
-| `wallpapers/ghost-shell.webp` | 1916 × 821 | medium | Ghost in the Shell-inspired jade harbor, weathered concrete and sea fog |
+| `wallpapers/cyberpunk.webp` | 1672 × 941 | low | Retro-anime magenta/cyan noodle kiosk, CRT screens and red motorbike at the right edge |
+| `wallpapers/ghost-shell.webp` | 1672 × 941 | low | Ghost in the Shell (1995)-inspired original cyborg investigator and jade harbor, hand-drawn anime look |
 | `wallpapers/deus-ex.webp` | 1672 × 941 | low | Deus Ex-inspired black-and-gold architecture, faceted forms and geometric light |
+| `wallpapers/retro-future.webp` | 1672 × 941 | low | Nostalgic pixel-art CRT workstation, cassette tapes, neon skyline and amber moon |
 
-The prompts requested dark low-detail negative space on the left and center for terminal readability, with architecture and highlights concentrated on the right and lower horizon. Provider-returned dimensions and quality above are the actual results, not the requested size.
+Cyberpunk, Ghost in the Shell and Retro Future were recomposed using their original generated scenes plus this repository's Replicant and Dunes images as composition references. The calm dark left/center is part of the artwork, not a global opacity filter; bright focal detail remains at the right. The dimensions and quality above are the final provider-returned results, not the requested size.
 
 The repository's MIT permission grant applies to the assets to the extent contributors hold applicable rights. AI-generated images may not qualify for copyright protection in every jurisdiction. No affiliation with or endorsement by the respective film, series or game rights holders, omp, Tern or OpenAI is implied.
 

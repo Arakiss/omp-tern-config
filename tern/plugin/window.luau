@@ -8,4 +8,9 @@ tern.css("wallpaper", [[
   background-position: center;
   background-repeat: no-repeat;
 }
+/* Protect the small progress strip, not the wallpaper or the whole pane. */
+.tn-stage .sf-dock > .sf-row {
+  background-color: #171c25;
+  border-radius: 6px;
+}
 ]])

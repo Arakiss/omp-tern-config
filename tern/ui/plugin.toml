@@ -1,0 +1,6 @@
+schema = 1
+id = "omp-tern-config-hud"
+name = "omp + Tern Config — Retro-future HUD"
+version = "1.0.0"
+description = "Optional static neon chrome; disable without changing your theme or wallpaper."
+window = "window.luau"

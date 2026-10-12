@@ -11,11 +11,10 @@ import subprocess
 import sys
 import tempfile
 
+from tern_bg import WALLPAPERS, install_cli, apply_wallpaper
+from tern_ui import install as install_ui
+
 ROOT = Path(__file__).resolve().parent
-WALLPAPERS = (
-    "replicant", "dunes", "grid", "tron-ares", "altered-carbon",
-    "cyberpunk", "ghost-shell", "deus-ex",
-)
 
 
 def merge(base, patch):
@@ -48,9 +47,7 @@ def atomic_json(path, value):
             temporary.unlink(missing_ok=True)
 
 
-def install(autonomous=False, dry_run=False, wallpaper="replicant", cua=False, wallpaper_only=False):
-    if wallpaper_only and (autonomous or cua):
-        raise ValueError("--wallpaper-only cannot change approval policy or configure CUA.")
+def install(autonomous=False, dry_run=False, wallpaper="replicant", cua=False):
     for binary in (("omp", "tern", "cua-driver") if cua else ("omp", "tern")):
         if not shutil.which(binary):
             raise RuntimeError(f"Install {binary} and put it on PATH first.")
@@ -65,7 +62,7 @@ def install(autonomous=False, dry_run=False, wallpaper="replicant", cua=False, w
 
     omp_dir = Path(command("omp", "config", "path"))
     skill_path = omp_dir / "skills/tern-terminal/SKILL.md"
-    if not wallpaper_only and skill_path.is_symlink():
+    if skill_path.is_symlink():
         raise RuntimeError(f"Refusing to replace a linked skill: {skill_path}")
     plugins_dir = Path(command("tern", "plugin", "dir"))
     mcp_path = omp_dir / "mcp.json"
@@ -96,48 +93,42 @@ def install(autonomous=False, dry_run=False, wallpaper="replicant", cua=False, w
     print(f"Visual pack: {wallpaper}")
     if cua:
         print(f"CUA MCP configuration: {mcp_path}")
-    print(f"Approval mode: {'unchanged (wallpaper only)' if wallpaper_only else 'autonomous (yolo)' if autonomous else 'unchanged'}")
+    print(f"Wallpaper command: {Path.home() / '.local/bin/tern-bg'}")
+    print(f"HUD command: {Path.home() / '.local/bin/tern-ui'} (off by default)")
+    print(f"Approval mode: {'autonomous (yolo)' if autonomous else 'unchanged'}")
     if dry_run:
         print("Dry run: no files changed.")
         return
 
+    install_cli()
+    install_ui()
+
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
     backup = plugins_dir.parent / "omp-tern-config-backups" / stamp
     backup.mkdir(parents=True, mode=0o700)
-    if not wallpaper_only:
-        for filename in ("config.yml", "config.yaml"):
-            source = omp_dir / filename
-            if source.exists():
-                shutil.copy2(source, backup / filename)
-        if cua and mcp_path.exists():
-            shutil.copy2(mcp_path, backup / "mcp.json")
-        if tern_settings.exists():
-            shutil.copy2(tern_settings, backup / "settings.json")
-        if skill_path.exists():
-            shutil.copy2(skill_path, backup / "tern-terminal-SKILL.md")
+    for filename in ("config.yml", "config.yaml"):
+        source = omp_dir / filename
+        if source.exists():
+            shutil.copy2(source, backup / filename)
+    if cua and mcp_path.exists():
+        shutil.copy2(mcp_path, backup / "mcp.json")
+    if tern_settings.exists():
+        shutil.copy2(tern_settings, backup / "settings.json")
+    if skill_path.exists():
+        shutil.copy2(skill_path, backup / "tern-terminal-SKILL.md")
     if destination.exists():
         shutil.copytree(destination, backup / "plugin")
     print(f"Backup: {backup}")
 
     # OMP owns YAML validation, locking and preservation of unrelated keys.
-    if not wallpaper_only:
-        for key, value in omp_patch.items():
-            command("omp", "config", "set", key, json.dumps(value))
-        atomic_json(tern_settings, merged)
-        skill_path.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(ROOT / "skills/tern-terminal/SKILL.md", skill_path)
-        if cua:
-            atomic_json(mcp_path, mcp_patch)
-    destination.mkdir(parents=True, exist_ok=True)
-    for name in ("plugin.toml", "window.luau"):
-        shutil.copy2(ROOT / "tern/plugin" / name, destination / name)
-    shutil.copy2(image, destination / "wallpaper.webp")
-    result = json.loads(command("tern", "plugin", "reload", "--json"))
-    own = next((plugin for plugin in result["plugins"] if plugin["id"] == "omp-tern-config-wallpaper"), None)
-    if not own or own["status"] != "ready":
-        raise RuntimeError(f"Plugin did not load: {json.dumps(result)}")
-    if result.get("problems"):
-        print(f"Other plugin problems: {json.dumps(result['problems'])}", file=sys.stderr)
+    for key, value in omp_patch.items():
+        command("omp", "config", "set", key, json.dumps(value))
+    atomic_json(tern_settings, merged)
+    skill_path.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(ROOT / "skills/tern-terminal/SKILL.md", skill_path)
+    if cua:
+        atomic_json(mcp_path, mcp_patch)
+    apply_wallpaper(wallpaper)
     try:
         command("tern", "ctl", "plugins", "run", "reload_config")
     except subprocess.CalledProcessError as error:
@@ -153,10 +144,9 @@ def main():
     parser.add_argument("--autonomous", action="store_true", help="Enable omp yolo mode and disable Tern paste confirmations")
     parser.add_argument("--wallpaper", choices=WALLPAPERS, default="replicant", help="Choose an optional visual pack")
     parser.add_argument("--cua", action="store_true", help="Merge the local CUA Driver MCP server into omp; requires cua-driver on PATH")
-    parser.add_argument("--wallpaper-only", action="store_true", help="Change only the wallpaper plugin; leave models, preferences, skills and MCP untouched")
     args = parser.parse_args()
     try:
-        install(args.autonomous, args.dry_run, args.wallpaper, args.cua, args.wallpaper_only)
+        install(args.autonomous, args.dry_run, args.wallpaper, args.cua)
     except (OSError, ValueError, RuntimeError, subprocess.CalledProcessError) as error:
         parser.exit(1, f"Installation failed: {error}\n")
 
