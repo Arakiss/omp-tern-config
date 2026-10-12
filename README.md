@@ -118,7 +118,7 @@ The stylesheet uses a dark base and a cover crop. Wide displays show more archit
 
 - Only curated preset JSON, plugin code and public assets are shipped. No auth files, chat sessions, databases, shell history, host lists, email addresses or machine identifiers.
 - Existing credentials are never read or copied by the installer. Settings backups stay on your machine.
-- Enabling omp's desktop prelude does **not** grant Screen Recording or Accessibility. CuaDriver and Tern have separate macOS permission identities. CUA's live capture and AX were verified; Tern's administrator-authentication flow must be completed by the user. Neither the installer nor an agent auto-confirms those prompts.
+- Enabling omp's desktop prelude does **not** grant Screen Recording or Accessibility. CuaDriver and Tern have separate macOS permission identities. CUA's live capture and AX were verified; a fresh native omp session confirmed Tern's input and AX permissions granted, while native capture was still denied. Adding the missing Screen Recording entry requires the user's administrator authentication. Neither the installer nor an agent auto-confirms those prompts.
 - Installers don't download binaries, install plugins from the network, publish repositories or send posts.
 - Disabling approvals is not a sandbox. Review the presets before installation.
 

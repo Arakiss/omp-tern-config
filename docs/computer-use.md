@@ -6,7 +6,7 @@ There are two separate backends. A permission granted to one does not authorize 
 
 The preset sets `computer.enabled=true`. The persistent JavaScript/Python eval API exposes window screenshots, Accessibility (AX), input and native menus through `computer`.
 
-On macOS, the responsible application needs Screen Recording and Accessibility. In this Tern workflow, the initial native prelude was denied both. System Settings exposed `Tern.app` with Accessibility disabled; requesting the change opened administrator authentication using Touch ID/password. An optimistic checkbox is not a completed grant. The user, not an agent or installer, must complete that authentication.
+On macOS, the responsible application needs Screen Recording and Accessibility. In this Tern workflow, the initial native prelude was denied both. Requesting Accessibility opened administrator authentication. A later fresh omp session independently reported `input:true`, `ax:true`, and both corresponding permissions `granted`, but `capture:false` and `capturePermission:denied`. Requesting the missing Screen Recording entry opened another Touch ID/password authentication gate. The user, not an agent or installer, must complete that gate; an optimistic checkbox is not a completed grant.
 
 Open **System Settings → Privacy & Security → Accessibility** and authorize Tern. Then review **Screen & System Audio Recording** for the responsible application. Relaunch the responsible app when macOS requests it; don't interrupt an active session just to restart it. Start a fresh omp desktop-control session after permission changes. `computer.close()` ends that control session and doesn't revoke OS permissions.
 
