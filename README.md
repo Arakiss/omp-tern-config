@@ -9,9 +9,9 @@
 
 [Quick start](#quick-start) · [English demo](#reproduce-the-english-demo) · [Wallpaper CLI](#wallpaper-controls-and-rotation) · [Optional HUD](#optional-retro-future-hud) · [Computer use](docs/computer-use.md) · [Changelog](CHANGELOG.md)
 
-[![Real English omp coding session in native Tern, with original visual packs](assets/demo.gif)](assets/demo.mp4)
+[![Real English omp coding session in native Tern, with original visual packs](assets/demo.gif)](https://raw.githubusercontent.com/Arakiss/omp-tern-config/main/assets/demo.mp4)
 
-*A real English coding run, replayed through Tern's native renderer with staged wallpaper changes. Not a performance benchmark. [MP4 video](assets/demo.mp4) · [Static poster](assets/demo-poster.png) · [Original shell preview](assets/preview.png).*
+*A real English coding run, replayed through Tern's native renderer with staged wallpaper changes. Not a performance benchmark. [Download MP4 for X](https://raw.githubusercontent.com/Arakiss/omp-tern-config/main/assets/demo.mp4) · [Static poster](assets/demo-poster.png) · [Original shell preview](assets/preview.png).*
 
 Configuration first: native agent surfaces, parallel workers, real tools, and visible resource usage. **Replicant** is the optional Blade Runner-inspired visual pack, not the project's identity.
 
