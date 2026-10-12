@@ -94,23 +94,32 @@ Tern also exposes native file, browser, Git, SQLite, notebook and canvas blocks.
 
 ## Wallpaper and customization
 
-Three original generated images are included. None is a film still or a downloaded promotional asset; see [provenance](assets/PROVENANCE.md).
+Eight original generated images are included. None is a film still, game screenshot or downloaded promotional asset; see [provenance](assets/PROVENANCE.md).
 
 | Pack | Art direction | Preview |
 | --- | --- | --- |
 | `replicant` | Blade Runner-inspired amber architecture and cyan rain | [Image](wallpapers/replicant.webp) |
 | `dunes` | Dune-inspired desert citadel, basalt and eclipsed sunlight | [Image](wallpapers/dunes.webp) |
 | `grid` | Tron-inspired dark digital architecture, reticle and neon portal | [Image](wallpapers/grid.webp) |
+| `tron-ares` | TRON: Ares-inspired black architecture and scarlet light trails | [Image](wallpapers/tron-ares.webp) |
+| `altered-carbon` | Rainy vertical cyber-noir, violet/teal light and a koi hologram | [Image](wallpapers/altered-carbon.webp) |
+| `cyberpunk` | Monsoon megacity, elevated roads, magenta and turquoise neon | [Image](wallpapers/cyberpunk.webp) |
+| `ghost-shell` | Ghost in the Shell-inspired jade harbor, concrete and sea fog | [Image](wallpapers/ghost-shell.webp) |
+| `deus-ex` | Deus Ex-inspired black-and-gold architecture and geometric light | [Image](wallpapers/deus-ex.webp) |
 
 Change only the visual pack, without touching models, permissions, preferences, skills or MCP:
 
 ```sh
-python3 install.py --wallpaper dunes --wallpaper-only
-python3 install.py --wallpaper grid --wallpaper-only
-python3 install.py --wallpaper replicant --wallpaper-only
+python3 install.py --wallpaper tron-ares --wallpaper-only
+python3 install.py --wallpaper altered-carbon --wallpaper-only
+python3 install.py --wallpaper cyberpunk --wallpaper-only
+python3 install.py --wallpaper ghost-shell --wallpaper-only
+python3 install.py --wallpaper deus-ex --wallpaper-only
 ```
 
 `replicant` remains the default. A full install also accepts `--wallpaper PACK`; `--wallpaper-only` cannot be combined with `--cua` or `--autonomous`. Replace a source WebP with your own image smaller than 8 MiB and rerun the corresponding command.
+
+The red `tron-ares` pack refers to [Disney's TRON: Ares (2025)](https://movies.disney.com/tron-ares), distinct from the older blue/cyan-inspired `grid` pack. All packs are original interpretations, not official franchise assets.
 
 The stylesheet uses a dark base and a cover crop. Wide displays show more architecture; narrower panes crop it. The plugin styles pane backgrounds; native editors and tool cards may paint their own opaque surfaces. Those readable surfaces are intentionally retained.
 

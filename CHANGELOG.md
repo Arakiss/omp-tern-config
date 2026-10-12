@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0 — 2026-10-12
+
+- Added five original wallpaper packs: TRON: Ares, Altered Carbon, Cyberpunk, Ghost in the Shell and Deus Ex.
+- Expanded the shared installer catalogue to eight packs; retained the Replicant default and wallpaper-only configuration isolation.
+- Documented each generated asset's actual returned dimensions and quality, with a primary-source link identifying TRON: Ares (2025).
+- Installed and visually inspected every new pack in the real Tern window using CUA; verified that omp settings, MCP, Tern settings and the native Tern skill remained byte-identical.
+
 ## 1.1.0 — 2026-10-12
 
 - Renamed the repository and public identity to `omp-tern-config`; Replicant is now only a visual pack.

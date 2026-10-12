@@ -12,6 +12,10 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parent
+WALLPAPERS = (
+    "replicant", "dunes", "grid", "tron-ares", "altered-carbon",
+    "cyberpunk", "ghost-shell", "deus-ex",
+)
 
 
 def merge(base, patch):
@@ -51,7 +55,7 @@ def install(autonomous=False, dry_run=False, wallpaper="replicant", cua=False, w
         if not shutil.which(binary):
             raise RuntimeError(f"Install {binary} and put it on PATH first.")
     image = ROOT / "wallpapers" / f"{wallpaper}.webp"
-    if wallpaper not in ("replicant", "dunes", "grid") or not image.is_file():
+    if wallpaper not in WALLPAPERS or not image.is_file():
         raise ValueError(f"Unknown or missing wallpaper: {wallpaper}")
     omp_patch = json.loads((ROOT / "omp/settings.json").read_text())
     tern_patch = json.loads((ROOT / "tern/settings.json").read_text())
@@ -147,7 +151,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print targets without changing files")
     parser.add_argument("--autonomous", action="store_true", help="Enable omp yolo mode and disable Tern paste confirmations")
-    parser.add_argument("--wallpaper", choices=("replicant", "dunes", "grid"), default="replicant", help="Choose an optional visual pack")
+    parser.add_argument("--wallpaper", choices=WALLPAPERS, default="replicant", help="Choose an optional visual pack")
     parser.add_argument("--cua", action="store_true", help="Merge the local CUA Driver MCP server into omp; requires cua-driver on PATH")
     parser.add_argument("--wallpaper-only", action="store_true", help="Change only the wallpaper plugin; leave models, preferences, skills and MCP untouched")
     args = parser.parse_args()
