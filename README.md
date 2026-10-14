@@ -266,16 +266,6 @@ Reopen Tern or run **Reload settings** from its command palette after restoring 
 
 If a backup contains `mcp.json` or `tern-terminal-SKILL.md`, those are the previous MCP configuration and Tern skill. Restore them to the active omp profile's `mcp.json` and `skills/tern-terminal/SKILL.md`. Keep private backups out of the repository.
 
-## Share
-
-Repository name: **`omp-tern-config`**. Suggested description: **Portable omp AI coding harness and Tern terminal configuration, tools, extensions and optional visual packs.**
-
-A post you can use:
-
-> Tern es la mejor terminal que he probado. Estoy compartiendo omp-tern-config: mi configuración de la terminal Tern y del harness omp, con agentes paralelos, herramientas nativas y fondos originales opcionales. Código abierto, portable y sin credenciales incluidas.
-
-Use https://github.com/Arakiss/omp-tern-config and `assets/preview.png` when publishing. Nothing is automatically sent to GitHub or X.
-
 ## License
 
 MIT for the installer, configuration, plugins and contributed documentation. Generated assets are distributed under the same permission grant to the extent applicable rights exist; see provenance. No affiliation with or endorsement by the respective franchises' rights holders, omp, Tern or OpenAI is implied.
