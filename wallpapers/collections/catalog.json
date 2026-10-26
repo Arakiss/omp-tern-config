@@ -1,0 +1,1767 @@
+{
+  "schema": 1,
+  "created": "2026-10-26",
+  "rights_notice": "Unofficial generated fan art; qualified repository permission grant only to the extent applicable rights exist. No rights to underlying franchises are granted.",
+  "resolution_notice": "Monitor-size exports may be cropped, darkened and upscaled from smaller originals. Actual encoded dimensions are recorded; filenames do not establish native generation resolution.",
+  "collections": [
+    {
+      "id": "cyberpunk-edgerunners-night",
+      "title": "Cyberpunk 2077 / Edgerunners — night",
+      "provenance": "Generation and selected processing recorded in the collection manifest.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 3346599,
+          "sha256": "14fa61e48e8b40545c68888592f7c5bd9ef846a785376f753aa823895f538d01",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 1583129,
+          "sha256": "54026e05846c270322bfa7c84bf3a7aa9b4270a58bba249cbb67ade53bedffdc",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 2153528,
+          "sha256": "52fb6901f4a1fd476a48f596bf6ecd6f3d61be13f3d85b9a60243678d8b64b9f",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/terminal.png",
+          "role": "terminal",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1130718,
+          "sha256": "87a7927141997d3637a28b6646353c082e6561b3b045eb35f59fb98262bef0ce",
+          "source_filename": "terminal.png"
+        },
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/originals/night-city.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1514416,
+          "sha256": "a04db904587d59cd3449c474bc6a4daa56754c63714ecca3449480210467ea5d",
+          "source_filename": "night-city.webp"
+        },
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/originals/carretera.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1108618,
+          "sha256": "15be9bef00d6efc4b36f5bf019ec03c41216504833a796038593c8a0cc896c0f",
+          "source_filename": "carretera.webp"
+        },
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/originals/lucy.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1218308,
+          "sha256": "69d778f61382f77f9f41c2e70b11f2553f507259249be79c335a3eb8a75eb928",
+          "source_filename": "lucy.webp"
+        },
+        {
+          "path": "wallpapers/collections/cyberpunk-edgerunners-night/originals/terminal.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 941816,
+          "sha256": "c5e99b1686a424df24f2c3b6d73c29097f0736c330d54213d77633dc09cc340f",
+          "source_filename": "terminal.webp"
+        }
+      ],
+      "terminal_pack": "cyberpunk-edgerunners-night",
+      "preview": "wallpapers/collections/cyberpunk-edgerunners-night/preview.webp",
+      "generation_records": [
+        {
+          "subject": "Create a single ultrawide desktop wallpaper inspired by Cyberpunk 2077 and Cyberpunk Edgerunners, Night City after midnight in rain. View from a shadowy rooftop toward immense layered megabuildings, distant Arasaka tower, dense Japanese cyberpunk architecture, fine antennae and skybridges, a few restrained dim petrol-cyan and muted crimson light traces and wet roof reflections. One tiny back-facing lone mercenary silhouette in a dark jacket at the far right gives scale, not a portrait. Absolutely night-time, low-key exposure, predominantly charcoal black and midnight navy, soft distant haze, no daylight, no bright sky, no giant luminous advertisements or blazing yellow. A polished cinematic game-environment matte painting with subtle anime-influenced silhouette design, coherent architecture, rich shadow details. This is a comfortable wallpaper for working at night, NOT a bright neon poster. Compose natively for a 3440x1440 ultrawide monitor, about 2.39:1 ratio, with the architectural focal point in the right half, quiet dark left third, entire continuous landscape, no panels, no borders, no readable text, no typography, no logos, no watermark.",
+          "aspect_ratio": "16:9",
+          "image_size": "1536x1024"
+        },
+        {
+          "subject": "Create one extremely panoramic dark desktop wallpaper inspired by the outskirts of Night City in Cyberpunk 2077 / Edgerunners. A sleek futuristic low black motorcycle with a small dim red rear light parked at lower right on a rain-wet elevated expressway, no rider, looking toward a long low distant Night City skyline through black indigo haze. The view travels horizontally across the frame, low horizon, controlled burgundy and petrol cyan pinpoints, faint distant transmission towers, subtle puddle reflections. Native composition for a very wide shallow 2560x720 monitor (3.56:1): keep ALL important features within the middle horizontal 38 percent band of the canvas so an extreme panoramic crop retains the complete motorcycle, road and skyline. Elegant cinematic environment illustration, convincing vehicle engineering, quiet melancholic atmosphere, over 85 percent dark blue-black negative space, tiny neon accents only, no broad luminous sky or moon, no bright billboards, no white surfaces, no text, logos, border or watermark. Comfortable night work wallpaper, match a restrained midnight navy / smoky cyan / desaturated red palette.",
+          "aspect_ratio": "16:9",
+          "image_size": "1536x1024"
+        },
+        {
+          "subject": "Create an original vertical-ish desktop wallpaper of Lucy (Lucyna Kushinada) from the Netflix anime Cyberpunk Edgerunners in a quiet rooftop moment at night, not a copy of any existing frame. Recognizable young adult Lucy with short asymmetrical pale silver bob and subtle pastel ends, dark netrunner suit and short pale jacket mostly in shadow, shown from behind in three-quarter profile gazing over Night City. Position her as a medium-small figure in the lower-right half, her complete head and shoulders comfortably inside the frame, anatomically natural, hands hidden behind rooftop parapet, not a face closeup. Towering dark megastructures rise vertically, a faint thin moon high above behind deep indigo cloud, fine muted cyan and dusty magenta lights far below. Authentic crisp anime background painting, thoughtful cel shading, atmospheric depth and beautiful restrained linework, deeply melancholic cinematic mood. Native portrait composition designed for a 1600x1800 almost-square vertical monitor: safe central width, no key subject at top or bottom edges. Very dark low-key treatment, graphite and midnight navy dominate, hair silver-gray NOT glowing white, jacket shaded gray, only subtle colored rim lighting, no large bright yellow or white areas, no big glowing moon. No lettering, subtitles, UI, panels, border, logo or watermark.",
+          "aspect_ratio": "3:4",
+          "image_size": "1024x1536"
+        },
+        {
+          "subject": "Create a dedicated terminal application background inspired by Night City in Cyberpunk 2077 and Cyberpunk Edgerunners. A nearly black charcoal-indigo rainy rooftop vista, with a tiny distant futuristic city skyline and delicate dim cyan and dusty crimson architectural edge lights concentrated only at the far right and bottom-right edges. Across the LEFT 75 PERCENT and central upper region, almost featureless matte near-black navy atmospheric negative space is mandatory so dense white terminal code will remain comfortably legible. Architecture is present as subtle low-contrast ghosted silhouettes, not a black rectangle pasted on a busy image. The entire scene should have very compressed dark tonal values: visual mean around RGB 10-15, accent highlights no brighter than dark slate, zero bright whites, zero glowing signage, no readable text, no characters, no logos, no close foreground objects, no large central subject, no border, no watermark. Artful quiet midnight anime-meets-cinematic-game environment illustration, subtle atmospheric haze, sparse controlled detail. Landscape 3:2 composition, designed for cover cropping aligned right center inside resizable Tern terminal panes. This is the dark companion to a midnight navy / muted cyan / desaturated crimson Cyberpunk wallpaper collection, more subdued than the desktop images, not a poster and not a terminal screenshot.",
+          "aspect_ratio": "3:2",
+          "image_size": "1536x1024"
+        }
+      ],
+      "processing": [
+        {
+          "scene": "night-city",
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            35,
+            1536,
+            678
+          ],
+          "output": "ultragear-3440x1440.png",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "brightness_multiplier": 0.82,
+          "resampling": "Lanczos; upscaled desktop crops, not native generated monitor resolution"
+        },
+        {
+          "scene": "carretera",
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            325,
+            1536,
+            757
+          ],
+          "output": "xeneon-2560x720.png",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "brightness_multiplier": 0.88,
+          "resampling": "Lanczos; upscaled desktop crops, not native generated monitor resolution"
+        },
+        {
+          "scene": "lucy",
+          "source_dimensions": [
+            1024,
+            1536
+          ],
+          "crop_xyxy": [
+            0,
+            90,
+            1024,
+            1242
+          ],
+          "output": "sdqhd-1600x1800.png",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "brightness_multiplier": 0.85,
+          "resampling": "Lanczos; upscaled desktop crops, not native generated monitor resolution"
+        },
+        {
+          "scene": "terminal",
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "crop_xyxy": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "output": "terminal.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "brightness_multiplier": 0.78,
+          "resampling": "Lanczos; upscaled desktop crops, not native generated monitor resolution"
+        }
+      ]
+    },
+    {
+      "id": "battlestar-galactica",
+      "title": "Battlestar Galactica",
+      "provenance": "Generation and selected processing recorded in the collection manifest.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/battlestar-galactica/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 4379579,
+          "sha256": "51971f9c83d4fb02dd48360607d703aa983e23afe9158ebea2f3644725f9c7ab",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 1157668,
+          "sha256": "45815e932b3ef9eecefe271da9186b0017e885aed0ee3dd581317487a482edd2",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 3049473,
+          "sha256": "1c27a6ddfff4431ae4550288d5df9e022097e5fe9453e74c767753a7255fb7d7",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/terminal.png",
+          "role": "terminal",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 721934,
+          "sha256": "a6c37ce5f8d7985620ff6a9ffd92fcca9b0f73c2b919ce3d318ccd9ed0967c58",
+          "source_filename": "terminal.png"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/originals/ultragear-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1424634,
+          "sha256": "202116214069dc26c9c83f637c6dec44901f523c48a22b891a012c47b520475b",
+          "source_filename": "ultragear-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/originals/xeneon-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 949382,
+          "sha256": "895a738860c34db11fa59afecab6bd021d0f25878f4265c3722fb0bfc691e55c",
+          "source_filename": "xeneon-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/originals/sdqhd-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1449952,
+          "sha256": "8e21de6b4aeedbb880d98beab9a1fbdf2effa9d9db23877b652cdfb15367118b",
+          "source_filename": "sdqhd-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/originals/terminal-source-02.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 962610,
+          "sha256": "1ba247b0f5f9ecab9408384285aebe082c436ce591d171ddc2aea9041159b0e2",
+          "source_filename": "terminal-source-02.webp"
+        },
+        {
+          "path": "wallpapers/collections/battlestar-galactica/originals/terminal-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 936890,
+          "sha256": "49cfc020dfdbc96c32ed0bcce76cde9944a6d04d98bbb46574008753d4a6ff8f",
+          "source_filename": "terminal-source.webp"
+        }
+      ],
+      "terminal_pack": "battlestar-galactica",
+      "preview": "wallpapers/collections/battlestar-galactica/preview.webp",
+      "generation_records": [
+        {
+          "request": {
+            "subject": "Create an original photorealistic cinematic space wallpaper inspired by the reimagined Battlestar Galactica. An unmistakable enormous Galactica battlestar: long weathered gray armored crocodilian bow, exposed repeating ribbed naval skeleton along the dorsal hull, a pair of large long separate lateral flight pods connected on both sides of the central hull, credible heavy engineering and hull plating. No battle, plot event, explosions or people. Seen from a distant three-quarter high side view, the complete ship runs diagonally very gently across the center, bow toward left, stern toward right; both flight pods readable, not a Star Destroyer, not a sleek generic spaceship. A dim shadowed blue-gray planetary limb lies far below. Spare, quiet scale, predominantly black navy space.",
+            "composition": "Native landscape 3:2 composition designed for a later 2.389:1 horizontal center crop: ALL of the ship, including both pod tips and engine glow, must fit comfortably within the middle 42 percent of image height, between y=30% and y=70%, with generous empty black sky above and below. Ship occupies about 75 percent of image width. Planetary limb remains low and subordinate. No cropped ship parts. Crisp detailed practical miniature-style naval engineering, restrained atmospheric depth.",
+            "lighting": "Very low-key cold navy and charcoal palette, soft steel-blue reflected planetary light, sparse tiny muted red landing guide lights, tiny warm-white rear engines, black shadows. No intense neon, giant glowing nebula, lens flare, rays or oversaturated colors.",
+            "style": "Grounded photorealistic serious science-fiction, tactile aged steel, fine restrained film grain, realistic exposure and scale; no painting or illustration, no poster treatment.",
+            "text": "No text, no ship names, no letters, no logos, no numbers, no watermark, no UI, no border.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "medium",
+          "source": "wallpapers/collections/battlestar-galactica/originals/ultragear-source.webp",
+          "selected_for_delivery": true
+        },
+        {
+          "request": {
+            "subject": "Create an original photorealistic cinematic wallpaper inspired by the reimagined Battlestar Galactica civilian fleet. A long sparse convoy of varied grounded civilian spacecraft traveling quietly through almost black cold navy space: distant boxy freighters, small cylindrical transport vessels, utilitarian industrial ships with distinct silhouettes, one tiny ring-shaped agricultural vessel and the recognizable Galactica battlestar very small and distant. Galactica has an elongated ribbed armored hull and twin separate long lateral flight pods. No event from the series, no combat, no people. Every vessel is complete and separated from its neighbors by generous black space. A quiet believable working fleet, not a parade of warships or an action scene.",
+            "composition": "Landscape 3:2 master designed to be cropped into an extreme 3.556:1 horizontal strip. CRITICAL: every ship and engine light sits inside a very narrow central horizontal band between 43% and 57% of full image height. All important subjects fit between x=6% and x=94%, without overlapping. Distant varied fleet stretches horizontally across the entire picture; each ship is small, 2 to 9 percent of image width. Nearly featureless black space fills top and bottom. No bright planet and no nebula; tiny sparse stars only.",
+            "lighting": "Predominantly near-black and deep navy with extremely restrained steel-blue rim light revealing aged metal, a few pinprick warm-white engines and tiny muted red navigation lamps. No saturated neon, giant glows, trails, laser beams or lens flares.",
+            "style": "Grounded photorealistic naval-industrial science fiction, coherent practical-miniature realism, restrained cinematic contrast, subtle fine grain, same production style as a dark serious Galactica space scene.",
+            "text": "No text, letters, logos, numbers, watermarks, UI, border or poster layout.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "medium",
+          "source": "wallpapers/collections/battlestar-galactica/originals/xeneon-source.webp",
+          "selected_for_delivery": true
+        },
+        {
+          "request": {
+            "subject": "Create an original photorealistic wallpaper inspired by the reimagined Battlestar Galactica. One recognizable Colonial Viper Mark II fighter banks gracefully in silent space in front of a huge shadowed cold blue-gray planet. This is a compact utilitarian single-seat colonial fighter: a long narrow pointed fuselage and enclosed dark cockpit, TWO short swept side wings plus ONE vertical dorsal tail fin, three tightly packed cylindrical rear engine nacelles, worn off-white and gray metal panels with subdued dark red longitudinal painted accents. Exactly this coherent fighter silhouette, NOT an X-wing, NOT split X-shaped wings, NOT a TIE fighter, NOT an arrowhead jet. No visible pilot face, no action combat, no weapon fire or plot event. Entire fighter is visible with clear separation from the planet.",
+            "composition": "A portrait-friendly vertical 2:3 original destined for a slightly portrait 8:9 center crop. The WHOLE fighter fits safely inside x=20% to x=80% and y=33% to y=67%; its wings, nose, tail and engine glow are not cropped. Banked three-quarter top/rear view with nose pointing diagonally upper-left, fighter moderately small at about 55 percent of picture width. Huge planet fills the upper background and right with a faint curved atmospheric rim; dark empty foreground below. Maintain strong realistic scale and generous negative space.",
+            "lighting": "Underexposed cold navy black space, soft steel-blue bounce from the planet on aged metal, very restrained warm-white engine glow and muted red paint, no neon beams, saturated nebula, lens flare or fire.",
+            "style": "Grounded photorealistic serious naval-industrial science fiction, tactile worn materials and practical-model realism, crisp credible vehicle construction and subtle fine film grain, no poster or illustration.",
+            "text": "No text, no ship markings, no letters, logos, numbers, watermark, UI or border.",
+            "aspect_ratio": "2:3",
+            "image_size": "1024x1536"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "medium",
+          "source": "wallpapers/collections/battlestar-galactica/originals/sdqhd-source.webp",
+          "selected_for_delivery": true
+        },
+        {
+          "request": {
+            "subject": "Create an original photorealistic terminal background inspired by a quiet reimagined Battlestar Galactica hangar. An immense dark industrial naval flight deck with one SMALL parked Colonial Viper Mark II fighter at rest ONLY in the rightmost quarter. Recognizable compact narrow pointed fighter fuselage, two short side wings, one dorsal tail fin, three rear engine nacelles, worn gray/off-white metal with muted dark red accents, landing gear firmly on the deck; engines OFF. Not an X-wing and not a cockpit view. No people, vehicles, battle, bright screens or plot events. Credible aged-steel hangar architecture just barely visible in shadow.",
+            "composition": "Landscape 3:2 composition specifically for a terminal, not a desktop crop. LEFT 65 PERCENT AND CENTER must be extremely quiet, almost solid near-black with only indistinct low-contrast steel shading: no foreground object, ship, bright detail, lit machinery, converging light strips or beams behind terminal text. Small Viper is fully contained at x=77% to x=94% and y=58% to y=76%, seen from a slightly elevated distant side-front angle. Keep both its nose and tail well inside the frame. Only a few very thin muted red and steel-blue deck lights close to the fighter in the rightmost quarter. Huge negative space. No central runway light line and no bright ceiling fixtures.",
+            "lighting": "Extremely low-key, almost black cold navy and charcoal. A very faint steel-blue local light reveals the small Viper on the far right; tiny dim red deck dots are restrained and local. Left and central image remains near-black and low detail. No bright overhead lights, glowing engines, fog shafts, neon or lens flare.",
+            "style": "Grounded photorealistic naval-industrial science fiction, tactile aged steel where visible, realistic subtle shadows and practical-miniature material detail, restrained fine film grain. Calm dim functional background, not a promotional poster.",
+            "text": "No text, letters, ship names, logos, numbers, watermark, UI, border or interface.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "medium",
+          "source": "wallpapers/collections/battlestar-galactica/originals/terminal-source.webp",
+          "selected_for_delivery": false
+        },
+        {
+          "request": {
+            "subject": "Image 1 is the edit target and owns the exact hangar atmosphere, low-key exposure, aged steel, navy-black palette, camera perspective, quiet composition, and recognizable parked Colonial Viper Mark II design. Create a refined dedicated terminal background. Make ONE local composition correction: the parked Viper is too large and extends too far left. Replace that single fighter with the SAME coherent Viper design at roughly HALF its present apparent size, farther away on the deck, COMPLETELY contained in the far-right region x=82% to x=95% of image width and y=64% to y=77% of image height. The entire fighter, nose, both wings, dorsal tail, rear engines and landing gear must fit inside that rectangle. Preserve the vehicle's orientation, neutral parked state and engines OFF. There is exactly ONE fighter. Naturally restore the dark unobtrusive deck where the original larger ship was. No other subject or new scenery.",
+            "composition": "Preserve the full landscape 3:2 frame, hangar geometry and viewpoint. Left 75% and center remain nearly solid black and low detail for terminal text, no bright details behind text. Tiny fighter only in the rightmost quarter, not extending toward the center. Keep all important details well within the right edge. Preserve thin muted red and steel-blue deck lights localized at the far-right edge; darken any leftward reflection if needed.",
+            "lighting": "Preserve the original extremely low-key cold navy charcoal exposure, faint local steel-blue light on the small fighter, subtle muted dark-red accents, no glowing engines, added light fixtures, spotlights, beams or neon.",
+            "style": "Preserve Image 1's grounded photorealistic reimagined Battlestar Galactica industrial hangar treatment, realistic material detail and quiet shadows. No stylization change.",
+            "text": "No text, letters, logos, numbers, watermark, UI or border.",
+            "changes": [
+              "Reduce the apparent fighter size by approximately one half and move it farther right into x=82%-95%, y=64%-77%.",
+              "Restore nearly black empty deck across the vacated original fighter footprint; preserve everything else."
+            ],
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/battlestar-galactica/originals/terminal-source-02.webp",
+          "selected_for_delivery": true
+        }
+      ],
+      "processing": [
+        {
+          "id": "ultragear",
+          "processing": {
+            "crop_box_xyxy_exclusive": [
+              15,
+              240,
+              1520,
+              870
+            ],
+            "crop_dimensions": [
+              1505,
+              630
+            ],
+            "target_dimensions": [
+              3440,
+              1440
+            ],
+            "uniform_upscale_factor": 2.2857142857142856,
+            "resampler": "Pillow Image.Resampling.LANCZOS",
+            "stretching": false,
+            "color_changes": "None; decoded source RGB retained.",
+            "rationale": "Retains the complete ribbed battlestar, both separate flight pods, warm-white engines and a low dim planetary limb; removes empty sky rather than any ship geometry."
+          }
+        },
+        {
+          "id": "xeneon",
+          "processing": {
+            "crop_box_xyxy_exclusive": [
+              0,
+              296,
+              1536,
+              728
+            ],
+            "crop_dimensions": [
+              1536,
+              432
+            ],
+            "target_dimensions": [
+              2560,
+              720
+            ],
+            "uniform_upscale_factor": 1.6666666666666667,
+            "resampler": "Pillow Image.Resampling.LANCZOS",
+            "stretching": false,
+            "color_changes": "None; decoded source RGB retained.",
+            "rationale": "All varied convoy silhouettes and navigation lights survive within the narrow middle band, with full source width and generous black above and below."
+          }
+        },
+        {
+          "id": "sdqhd",
+          "processing": {
+            "crop_box_xyxy_exclusive": [
+              0,
+              192,
+              1024,
+              1344
+            ],
+            "crop_dimensions": [
+              1024,
+              1152
+            ],
+            "target_dimensions": [
+              1600,
+              1800
+            ],
+            "uniform_upscale_factor": 1.5625,
+            "resampler": "Pillow Image.Resampling.LANCZOS",
+            "stretching": false,
+            "color_changes": "None; decoded source RGB retained.",
+            "rationale": "A deliberate 8:9 crop preserves the entire compact Viper, including pointed nose, both wings, dorsal fin and three engines, against the shadowed planet."
+          }
+        },
+        {
+          "id": "terminal",
+          "processing": {
+            "crop_box_xyxy_exclusive": [
+              0,
+              0,
+              1536,
+              1024
+            ],
+            "target_dimensions": [
+              1536,
+              1024
+            ],
+            "resizing": false,
+            "stretching": false,
+            "base_rgb": [
+              2,
+              4,
+              7
+            ],
+            "source_blend_alpha": "a(x)=0.24+0.40*smoothstep(clamp((x/(width-1)-0.77)/0.15,0,1)); quantize mask to nearest 8-bit via round(255*a).",
+            "smoothstep_definition": "t*t*(3-2*t)",
+            "blend_formula": "Pillow Image.composite(source_RGB, base_RGB, mask_L)",
+            "rationale": "Dedicated hangar composition, not a desktop crop. The smaller second-source fighter and position-dependent near-black blend protect left/center terminal text while retaining faint local steel-blue/red deck details at right."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dune",
+      "title": "Dune",
+      "provenance": "Generation and selected processing recorded in the collection manifest.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/dune/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 3889300,
+          "sha256": "5268cd60c16f5ff13b8d389ce41fb34b0f69e5c79673ea3cdb96c09dc780be70",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/dune/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 1524275,
+          "sha256": "277e39be7336925b1246a4b6b57e3e41b2edca2fcbe6860046e786f7894e87d4",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/dune/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 3851807,
+          "sha256": "ed35e8b7664fd3fdc416acfaf5e4418fb7632bf1f4069c71e4abf7b8a2728ec1",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/dune/terminal.png",
+          "role": "terminal",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 948416,
+          "sha256": "19465970316947e03b32dc7f3ec577701d5cbccdcf05c8222f1507429f2b3cce",
+          "source_filename": "terminal.png"
+        },
+        {
+          "path": "wallpapers/collections/dune/originals/ultragear-source-v2.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1380636,
+          "sha256": "4a9e505a133ff39f4098e2c4a8ce8703765abe834bcb6854349d35c77f8ab776",
+          "source_filename": "ultragear-source-v2.webp"
+        },
+        {
+          "path": "wallpapers/collections/dune/originals/xeneon-source-v2.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1286834,
+          "sha256": "00c65c728d0afb5fec7944cf85d22c156974e14d63be1887b4422ed6859798af",
+          "source_filename": "xeneon-source-v2.webp"
+        },
+        {
+          "path": "wallpapers/collections/dune/originals/sdqhd-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1795970,
+          "sha256": "f11f99738cef83a98afef610e25e96ab235138daadeca6d9c1f5657d4ff4f59d",
+          "source_filename": "sdqhd-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/dune/originals/terminal-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 797042,
+          "sha256": "542e4864464d38c91de444f5035a8b00beb73373c7ebb87e55a6d1bc5dd36af4",
+          "source_filename": "terminal-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/dune/originals/ultragear-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1459488,
+          "sha256": "f09e7ab97e1dbfd821b856365a28872be2ec6ac9d1a153dd086135344a2f837a",
+          "source_filename": "ultragear-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/dune/originals/xeneon-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1380462,
+          "sha256": "bfbee15f0f462ebee0932739886a86fc6582902e8d78d58445f53ffb13a2f0f0",
+          "source_filename": "xeneon-source.webp"
+        }
+      ],
+      "terminal_pack": "dune",
+      "preview": "wallpapers/collections/dune/preview.webp",
+      "generation_records": [
+        {
+          "request": {
+            "subject": "Create one original photorealistic cinematic Dune desktop wallpaper, not a poster: monumental wind-carved Arrakis dunes of warm muted sand, aged bronze and ochre, with enormous deep umber shadow valleys. A SINGLE SMALL recognizable Dune ornithopter flies across the dunes near x=67%, y=48% of the image. Its silhouette has a compact elongated mechanical fuselage and four pairs of long slender articulated insect/dragonfly wings, no rotor disc, no helicopter blades, no dragon or animal. The aircraft occupies only about 6% of image width, visibly dwarfed by the desert. No people, architecture, text, logos, watermarks, planets or plot events. This is a dedicated panoramic monitor composition: all important content must remain inside the central horizontal band from 30% to 69% of image height because the delivered wallpaper is cropped to 2.389:1. The dunes and small ornithopter must remain readable inside that band.",
+            "scene": "An uninhabited immense Arrakis erg, layered long dune crests fading into dusty atmospheric distance, tactile fine sand and plausible erosion; no orange fantasy mountains.",
+            "composition": "Distant elevated viewpoint across sculptural dunes, very wide natural perspective, strong elegant left-to-right dune geometry, horizon at about 38% image height. Aircraft near two-thirds width, 48% height. Plenty of clean negative space and no foreground giant subject. Full bleed landscape 3:2 source, safe for a central panoramic crop.",
+            "lighting": "Late-day low sun outside the frame to the upper left, restrained gold edges and very long cool-dark umber shadows, no visible blazing sun, muted exposure with deep shadows and realistic atmospheric contrast.",
+            "style": "Photorealistic large-format science-fiction film still, restrained Denis Villeneuve Dune desert materiality, quiet monumental minimalism, fine natural film grain, subdued bronze-ochre grading, no illustration or painterly brushwork.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "medium",
+          "source": "wallpapers/collections/dune/originals/ultragear-source.webp",
+          "selected_for_delivery": false
+        },
+        {
+          "request": {
+            "subject": "Create one original photorealistic cinematic Dune wallpaper specifically composed for an extremely wide narrow 3.556:1 monitor strip. Elegant immense Arrakis dune ridge extends horizontally across nearly the whole frame, the ridge at y=52% of the source. A SINGLE tiny isolated industrial spice harvester is at x=73%, y=57%, about 3% of image width, boxy low brutalist crawler on broad tracks, a barely visible thin dust wake, dwarfed by empty sand. No characters or people, no worms, no battles, no text, no logos, no UI, no watermark. It is essential that the entire dune ridge and small harvester lie in the CENTRAL 40% of source image height (y=30% through 70%) because the wallpaper will be cropped to an extremely narrow panoramic strip. Do not make a large foreground vehicle.",
+            "scene": "Empty Arrakis desert, low sweeping connected dune ridges and distant haze. Warm sand, worn bronze, restrained ochre, vast umber shadow planes. A different scene from an aircraft wallpaper: almost abstract horizontal dune contours with a tiny industrial scale anchor.",
+            "composition": "Distant wide panorama viewed from a low elevated ridge. Very long graceful shallow diagonal dune crest through the center, quiet space on the left, harvester well inside the safe crop band toward the right. A narrow pale dusty sky above the centered dunes, no mountains dominating the frame. Landscape 3:2 source protected for central 3.556:1 crop.",
+            "lighting": "Very low late-afternoon directional light raking the sand from the upper left, restrained warm highlights and long deep brown shadows, subtle photographic dynamic range, no sunrise flare or orange glow.",
+            "style": "Photorealistic cinematic Dune environmental film frame, austere desert minimalism and believable tracked industrial machinery, subdued aged bronze and ochre palette, fine sand texture, no painting or fantasy illustration.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/dune/originals/xeneon-source.webp",
+          "selected_for_delivery": false
+        },
+        {
+          "request": {
+            "subject": "Create one original photorealistic cinematic Dune wallpaper: towering severe Arrakeen-style brutalist desert architecture of monolithic weathered sandstone and aged bronze, monumental canted buttresses and one vast deeply recessed geometric entrance. The structure feels millennia old and functionally austere, not a gothic palace, not a pyramid temple, no ornate symbols. Empty foreground of wind-blown sand and suspended warm dust establishes enormous scale. No characters, no actor likenesses, no text, no logos, no watermarks, no vehicles, no plot events. Compose for a slightly portrait 8:9 monitor crop; all essential architecture and doorway must fit inside the central 75% of source height, leaving expendable margins at top and bottom.",
+            "scene": "Arrakeen on Arrakis, quiet immense angular desert stronghold, dusty warm stone with realistic erosion and subtle sand deposits in the joints. Deep umber-black doorway, ochre dust in the lower air, dry empty desert surroundings.",
+            "composition": "Low but not extreme ground viewpoint toward a monumental entrance, severe almost-symmetrical geometric masses, central vertical recess, strong architectural perspective with plausible straight lines. Structure fills the frame in a deliberate slightly-portrait composition, doorway centered around y=57%, upper mass visible within y=18% to 78% of the source. Quiet minimal foreground, no ornamental detail or busy skyline.",
+            "lighting": "Late-day slanting warm light grazes one face of the stone, large planes in deep umber shade, subtle realistic airborne dust catches light near the entrance, no luminous portal, no magical orange glow, exposure favors sculptural mass and darkness.",
+            "style": "Photorealistic large-format Dune production-design still, severe monumental brutalism, tactile weathered materials, restrained warm sand, aged bronze, ochre and deep umber palette, cinematic but understated, not a game render or fantasy painting.",
+            "aspect_ratio": "3:4",
+            "image_size": "1024x1536"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/dune/originals/sdqhd-source.webp",
+          "selected_for_delivery": true
+        },
+        {
+          "request": {
+            "subject": "Create one original photorealistic cinematic Dune TERMINAL BACKGROUND, a dedicated very dark desert twilight composition, not a desktop wallpaper crop. The LEFT 65% and the entire CENTER are matte near-black umber with almost no visible texture or contrast, reserved for dense terminal text. ONLY on the FAR RIGHT edge, x=85% to 100%, a faint narrow amber dune edge is barely illuminated. A single TINY distant Dune ornithopter silhouette, with a slender fuselage and insect-like articulated wings, is at x=91%, y=59%, extremely small, no larger than 2% of total image width, hovering just above the far-right dune. The aircraft and dune stay on the right. No people, no skyline, no bright sky, no sunrise, no visible sun or moon, no stars, no text, no watermarks, no UI. No bright detail behind where text will be.",
+            "scene": "Arrakis after sunset in nearly complete darkness. A mostly empty black-brown sky and shadowed featureless sand merge gently; the only suggestion of desert is a subtle low dune on the far right. The landscape must NOT extend a bright horizon across the center or left.",
+            "composition": "Landscape 3:2 source. Intentionally quiet almost-black negative space across the left and center. Barely visible dune tip concentrated at x=88% to 100%, y=68% to 86%; tiny ornithopter at x=91%, y=59%. Designed to retain right-edge subject under a right-center cover crop into a 1720x1440 terminal window. Keep all recognizable details in the rightmost 15%.",
+            "lighting": "Extremely low-key natural twilight, faint subdued amber rim only on far-right sand, black umber base, no glare, no specular highlights, no bright amber gradient, no detail in left and center. Expose for readable terminal text rather than a scenic sunrise.",
+            "style": "Photorealistic restrained Dune environmental film still, elegant minimalism, matte grain, warm deep umber blacks with a trace of aged bronze amber on the far-right dune edge, not an illustration.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "medium",
+          "source": "wallpapers/collections/dune/originals/terminal-source.webp",
+          "selected_for_delivery": true
+        },
+        {
+          "request": {
+            "subject": "Image 1 is the edit target and the composition, light, palette and landscape reference. Make one narrow local edit only: replace the existing ornithopter with the SAME recognizable insect-winged mechanical Dune ornithopter at ONLY 40% of its current wing-span and body scale. Keep its center at exactly the same location, near x=69%, y=45%. The complete aircraft's final wing-span should be about 6% to 7% of total source image width, genuinely tiny against the monumental dunes. Retain a compact mechanical fuselage and multiple long thin articulated dragonfly wings, no helicopter rotor disc, no animal. Reconstruct only the sand immediately around the shrinking aircraft. Everything else is invariant: preserve the exact dunes, ridge geometry, texture, atmospheric perspective, horizon, framing, late-day light, long shadows, warm aged-bronze and deep-umber color grading. No extra subjects, no text, no logos, no watermark. Do not zoom or move the camera. This remains a photorealistic cinematic Dune desert wallpaper, not an illustration.",
+            "changes": [
+              "Shrink only the existing ornithopter to 40% of its current size at the same center",
+              "Preserve the entire landscape, lighting, crop and all other details"
+            ],
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/dune/originals/ultragear-source-v2.webp",
+          "selected_for_delivery": true
+        },
+        {
+          "request": {
+            "subject": "Image 1 is the edit target and the exact composition, landscape, light and palette reference. One small local correction only: replace the tiny truck-like vehicle at x=72%, y=52% with a recognizable Dune SPICE HARVESTER, a low broad slab-sided brutalist industrial crawling platform with angular heavy machinery, wide continuous caterpillar treads and no visible rubber wheels, no truck cab, no road lorry silhouette. The whole harvester stays the SAME tiny size, about 4% of image width, at exactly the same center, with the same restrained dusty wake. It is dwarfed by the dune ridge. Preserve every other property: the long elegant dune crest, the empty space, all dune shapes, source framing, horizon, fine sand texture, late-day raking light and long umber shadows, muted warm sand/aged-bronze/ochre grading. No people, no worms, no battle, no large foreground vehicle, no text, logos or watermarks. Do not alter the camera or expand the scene. This remains photorealistic cinematic Dune desert minimalism, not orange fantasy art. The essential ridge and harvester remain inside the central 40% of source image height, for a 3.556:1 panoramic strip crop.",
+            "changes": [
+              "Replace only the tiny truck-like vehicle with a low broad tracked Dune spice-harvester silhouette",
+              "Keep size, center, dust wake, full landscape, lighting, palette and framing unchanged"
+            ],
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/dune/originals/xeneon-source-v2.webp",
+          "selected_for_delivery": true
+        }
+      ],
+      "processing": [
+        {
+          "relative_path": "ultragear-3440x1440.png",
+          "source": "wallpapers/collections/dune/originals/ultragear-source-v2.webp",
+          "source_crop_box_ltrb": [
+            0.0,
+            190.0,
+            1536.0,
+            832.9767441860465
+          ],
+          "coordinate_system": "source pixels; left, top, right, bottom; right/bottom are exclusive; fractional coordinates intentionally preserve exact aspect ratio",
+          "crop_width": 1536.0,
+          "crop_height": 642.9767441860465,
+          "uniform_scale_factor": 2.2395833333333335,
+          "upscaled": true,
+          "resampling": "Pillow Image.Resampling.LANCZOS",
+          "pixel_recipe": {
+            "decode": "Image.open(source).convert(\"RGB\")",
+            "resize": "image.resize(output_size, Image.Resampling.LANCZOS, box=source_crop_box_ltrb)",
+            "save": "PNG, optimize=True",
+            "sharpening": null,
+            "color_adjustments": null,
+            "stretching": false
+          }
+        },
+        {
+          "relative_path": "xeneon-2560x720.png",
+          "source": "wallpapers/collections/dune/originals/xeneon-source-v2.webp",
+          "source_crop_box_ltrb": [
+            0.0,
+            288.0,
+            1536.0,
+            720.0
+          ],
+          "coordinate_system": "source pixels; left, top, right, bottom; right/bottom are exclusive; fractional coordinates intentionally preserve exact aspect ratio",
+          "crop_width": 1536.0,
+          "crop_height": 432.0,
+          "uniform_scale_factor": 1.6666666666666667,
+          "upscaled": true,
+          "resampling": "Pillow Image.Resampling.LANCZOS",
+          "pixel_recipe": {
+            "decode": "Image.open(source).convert(\"RGB\")",
+            "resize": "image.resize(output_size, Image.Resampling.LANCZOS, box=source_crop_box_ltrb)",
+            "save": "PNG, optimize=True",
+            "sharpening": null,
+            "color_adjustments": null,
+            "stretching": false
+          }
+        },
+        {
+          "relative_path": "sdqhd-1600x1800.png",
+          "source": "wallpapers/collections/dune/originals/sdqhd-source.webp",
+          "source_crop_box_ltrb": [
+            0.0,
+            128.0,
+            1024.0,
+            1280.0
+          ],
+          "coordinate_system": "source pixels; left, top, right, bottom; right/bottom are exclusive; fractional coordinates intentionally preserve exact aspect ratio",
+          "crop_width": 1024.0,
+          "crop_height": 1152.0,
+          "uniform_scale_factor": 1.5625,
+          "upscaled": true,
+          "resampling": "Pillow Image.Resampling.LANCZOS",
+          "pixel_recipe": {
+            "decode": "Image.open(source).convert(\"RGB\")",
+            "resize": "image.resize(output_size, Image.Resampling.LANCZOS, box=source_crop_box_ltrb)",
+            "save": "PNG, optimize=True",
+            "sharpening": null,
+            "color_adjustments": null,
+            "stretching": false
+          }
+        },
+        {
+          "relative_path": "terminal.png",
+          "source": "wallpapers/collections/dune/originals/terminal-source.webp",
+          "source_crop_box_ltrb": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "uniform_scale_factor": 1.0,
+          "upscaled": false,
+          "pixel_recipe": {
+            "decode": "Image.open(source).convert(\"RGB\")",
+            "resize": null,
+            "save": "PNG, optimize=True",
+            "blend": null,
+            "color_adjustments": null,
+            "stretching": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "tron-legacy",
+      "title": "TRON: Legacy",
+      "provenance": "Generation and selected processing recorded in the collection manifest.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/tron-legacy/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 3541280,
+          "sha256": "bf7dcad8e16cec82fb52d34943c126b258efe3fc76051d2bc7542591461ba748",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/tron-legacy/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 1000441,
+          "sha256": "fb9fbbcc6ad107940f361372e7c3af40fd9a3e6770b55990e9e1b1540d9e12f4",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/tron-legacy/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 2188628,
+          "sha256": "cbc0cd79613c44adece9d7e935e60daf40f71dfb028a20b0c8af873782f44450",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/tron-legacy/terminal.png",
+          "role": "terminal",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 636212,
+          "sha256": "829be6714c2bbc4c42209d84d0730ad93f448af5bf399deee26f4d844009fef1",
+          "source_filename": "terminal.png"
+        },
+        {
+          "path": "wallpapers/collections/tron-legacy/originals/ultragear-original.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1266740,
+          "sha256": "d41909e81b94ce37c8fb3c853bc1f10fe66f0634b2f374a9950fd4fef2565124",
+          "source_filename": "ultragear-original.webp"
+        },
+        {
+          "path": "wallpapers/collections/tron-legacy/originals/xeneon-original.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 872294,
+          "sha256": "df228bada9245a2cc45ef4db346ee7c4db7b2db602ddabbcb426e78d89a4680c",
+          "source_filename": "xeneon-original.webp"
+        },
+        {
+          "path": "wallpapers/collections/tron-legacy/originals/sdqhd-original.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1230436,
+          "sha256": "f77743c512a28777483d6ef8f85ecda936c796e7d59397bb7c37ae5da1580351",
+          "source_filename": "sdqhd-original.webp"
+        },
+        {
+          "path": "wallpapers/collections/tron-legacy/originals/terminal-original.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 628112,
+          "sha256": "1678fbd73844223e9a80c5e95d7568fa3b83a63adc1a26b783605421966e3407",
+          "source_filename": "terminal-original.webp"
+        }
+      ],
+      "terminal_pack": "tron-legacy",
+      "preview": "wallpapers/collections/tron-legacy/preview.webp",
+      "generation_records": [
+        {
+          "request": {
+            "subject": "Create an original cinematic photorealistic TRON: Legacy-inspired desktop wallpaper, not a poster. Vast nearly black Grid city of monumental geometric obsidian towers, polished dark glass and black basalt-like architectural slabs, precise restrained thin cyan luminous edges and road lanes. One small recognizable enclosed futuristic light cycle with two circular wheels and an integrated dark aerodynamic canopy, seen in profile on the right at about 80 percent of image width, serving only as a scale anchor. No rider portrait. Tiny distant amber opponent accent only, less than one percent of the image. Avoid gaudy neon cyberpunk.",
+            "scene": "A broad elevated obsidian causeway looking into a massive silent geometric city. Long subtle cyan guide lanes recede toward a far horizon. Architectural mass is dark and believable, with slight volumetric blue haze revealing layers. No rain, no billboards, no crowds, no vehicles other than the one small cycle and an optional tiny distant amber speck.",
+            "composition": "Wide landscape source for a 3440 by 1440 ultrawide crop. Keep the complete visual story inside the central horizontal 60 percent of the frame height: horizon at 47 percent height, building silhouettes between 24 and 62 percent, the small cycle entirely between 55 and 66 percent height. Keep uppermost and bottommost 20 percent as quiet extendable darkness. Monumental asymmetric city masses left and far right, broad negative space through the middle. Cycle at 80 percent width, no large foreground object. Low eye-level cinematic long lens perspective, coherent scale, no distortion.",
+            "lighting": "Almost black/navy environment, controlled cyan practical strips with narrow crisp cores and very gentle bloom, realistic faint cyan specular reflections on polished obsidian, restrained atmospheric depth, zero overexposed white light. Dark premium photographic exposure.",
+            "style": "Photorealistic live-action cinematic production design in the visual language of TRON: Legacy. Obsidian, graphite, precise cyan, a tiny amber accent. Physically coherent materials and contact shadows, exquisite dark-space restraint, no illustration or videogame screenshot appearance.",
+            "text": "No text, no lettering, no typography, no numbers, no logos, no watermarks, no poster elements, no interface, no borders.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/tron-legacy/originals/ultragear-original.webp",
+          "selected_for_delivery": "Only generated candidate for this specifically requested composition; selected by agent after uncropped and target-crop visual inspection."
+        },
+        {
+          "request": {
+            "subject": "Create an original photorealistic cinematic TRON: Legacy-inspired wallpaper for an extremely wide thin monitor strip. A long absolutely straight obsidian-black light-cycle route with two or three very thin precise parallel cyan luminous traces receding toward a tiny distant vanishing point. One tiny enclosed cyan light cycle on the route near 62 percent image width, recognizable by two circular wheels and sleek continuous black canopy, no visible face. A single very small amber opponent trace far in the distance. This is a distinct quiet route scene, not a city panorama and not a poster.",
+            "scene": "An immense empty black Grid transit plane, low distant angular obsidian structures at the horizon, nearly black navy sky, delicate low atmospheric haze. Dark polished ground gives subdued reflections beneath the slender cyan lanes. No neon signs, no rain, no clutter.",
+            "composition": "Landscape source for a final extreme 2560 by 720 panoramic crop, ratio 3.56 to 1. All important geometry, horizon, cycle and light trails must fit inside the central horizontal 35 percent of frame height, from 34 to 66 percent. Horizon at 44 percent height and tiny cycle around 55 percent height. Keep top and bottom 30 percent entirely expendable dark sky or dark ground. Track lines remain low and central, sweeping very gently in perspective from bottom-center toward center distance but the road itself is straight. The vehicle stays tiny and unobtrusive, no large foreground wheels. Long low perspective and generous lateral negative space.",
+            "lighting": "Dark cinematographic exposure, obsidian surfaces barely visible, narrow controlled cyan emission, one tiny distant amber emission. Realistic subtle reflections, no white flare, no saturated neon fog.",
+            "style": "Live-action cinematic photorealism, TRON: Legacy production-design language, black monolithic geometry and exact restrained cyan light, sophisticated minimal science fiction rather than gaudy cyberpunk.",
+            "text": "No text, no letters, no numbers, no logos, no watermarks, no interface, no poster layout, no borders.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/tron-legacy/originals/xeneon-original.webp",
+          "selected_for_delivery": "Only generated candidate for this specifically requested composition; selected by agent after uncropped and target-crop visual inspection."
+        },
+        {
+          "request": {
+            "subject": "Create an original photorealistic cinematic TRON: Legacy-inspired vertical desktop wallpaper. One monumental black geometric tower and portal-like threshold made of immense polished obsidian slabs, its tall narrow opening outlined by only two or three precise very thin cyan luminous strips. Architecture, not a literal glowing magic portal: the opening reveals deeper dark structural space. Enormous scale, no characters, no portraits, no symbols, no plot event.",
+            "scene": "A silent Grid architectural precinct, matte graphite foundations and polished black structural planes, subtle navy atmospheric distance, empty dark forecourt. Monumental vertical mass rises from the center-right. A very tiny restrained amber light far near the base may give a scale cue, otherwise only cyan and black. No street clutter or city neon.",
+            "composition": "Portrait source for an almost-square vertical 1600 by 1800 display, ratio 8 to 9. Preserve the complete threshold silhouette between 20 and 80 percent of source height so a central 8 to 9 crop retains it. Main architecture between 34 and 74 percent image width; broad clean dark margins to left and right. Threshold slightly right of center, no central brilliant white opening. Quiet dark negative space around the tower, subtle foreground leading line, no objects near image edges. Looking slightly upward with straight believable architectural perspective, not extreme fisheye.",
+            "lighting": "Near-black cinematic exposure, incredibly restrained cyan luminous edge strips, subtle blue rim light revealing obsidian material, gentle atmosphere only behind structure. Fine controlled bloom, no clipped white areas, no luminous fog wall.",
+            "style": "Photorealistic live-action science-fiction environment in the visual language of TRON: Legacy, luxurious dark geometric minimalism, solid believable polished obsidian materials and concrete architectural scale, not an illustration, not a game screenshot.",
+            "text": "No text, lettering, numbers, typography, logos, watermarks, interface, poster elements or borders.",
+            "aspect_ratio": "2:3",
+            "image_size": "1024x1536"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/tron-legacy/originals/sdqhd-original.webp",
+          "selected_for_delivery": "Only generated candidate for this specifically requested composition; selected by agent after uncropped and target-crop visual inspection."
+        },
+        {
+          "request": {
+            "subject": "Create a dedicated original photorealistic TRON: Legacy-inspired terminal background, not a desktop wallpaper crop. It must be exceptionally quiet and almost black for readable code. The LEFT SEVENTY FIVE PERCENT and the entire center are nearly uniform black with only a barely perceptible navy tone and absolutely no visible grid, stars, machinery, lines, vehicles or texture. Only at the FAR RIGHT and LOWER RIGHT, show a subtle dark obsidian structural silhouette and exactly two or three very thin restrained cyan geometric traces. No bright focal subject.",
+            "scene": "A minimal dark Grid interior or architectural void, mostly pure deep navy-black negative space. At the right edge a barely visible polished obsidian threshold is suggested rather than fully illuminated, with tiny low-intensity cyan edges turning one corner near the lower-right. Nothing extends behind the future text area.",
+            "composition": "Landscape 3 to 2 source, intended for right-center cover within a 1720 by 1440 terminal window. All visible architecture and cyan traces stay at x greater than 84 percent of frame width, chiefly in the lower-right between 60 and 92 percent of height. From left edge through 75 percent width is an unbroken nearly uniform dark field. Keep center completely empty. No horizontal cyan line across image, no floor grid, no center glow. The scene should remain minimal when the leftmost fifth is cropped away by right-aligned cover.",
+            "lighting": "Extremely low-key nearly black navy palette. Cyan lines are dim, thin and sparse, very slight bloom only, absolutely no white light, no amber, no colorful fog, no high-frequency texture, no reflections across the middle. Contrast confined to far right.",
+            "style": "Photorealistic restrained polished obsidian science-fiction architecture in the visual language of TRON: Legacy, premium dark cinematic material realism, deliberately subordinate to readable terminal text.",
+            "text": "No actual code, no text, no letters, no numbers, no glyphs, no logos, no watermarks, no interface, no screen, no borders.",
+            "aspect_ratio": "3:2",
+            "image_size": "1536x1024"
+          },
+          "provider": "openai-codex",
+          "model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "source": "wallpapers/collections/tron-legacy/originals/terminal-original.webp",
+          "selected_for_delivery": "Only generated candidate for this specifically requested composition; selected by agent after uncropped and target-crop visual inspection."
+        }
+      ],
+      "processing": [
+        {
+          "filename": "ultragear-3440x1440.png",
+          "source": "wallpapers/collections/tron-legacy/originals/ultragear-original.webp",
+          "crop_box_source_pixels": [
+            0,
+            96,
+            1536,
+            738.9767441860465
+          ],
+          "resampling": "Pillow Image.Resampling.LANCZOS",
+          "scale_x": 2.2395833333333335,
+          "scale_y": 2.2395833333333335,
+          "upscaled": true,
+          "additional_processing": "None; source RGB appearance preserved."
+        },
+        {
+          "filename": "xeneon-2560x720.png",
+          "source": "wallpapers/collections/tron-legacy/originals/xeneon-original.webp",
+          "crop_box_source_pixels": [
+            0,
+            280,
+            1536,
+            712
+          ],
+          "resampling": "Pillow Image.Resampling.LANCZOS",
+          "scale_x": 1.6666666666666667,
+          "scale_y": 1.6666666666666667,
+          "upscaled": true,
+          "additional_processing": "None; source RGB appearance preserved."
+        },
+        {
+          "filename": "sdqhd-1600x1800.png",
+          "source": "wallpapers/collections/tron-legacy/originals/sdqhd-original.webp",
+          "crop_box_source_pixels": [
+            0,
+            128,
+            1024,
+            1280
+          ],
+          "resampling": "Pillow Image.Resampling.LANCZOS",
+          "scale_x": 1.5625,
+          "scale_y": 1.5625,
+          "upscaled": true,
+          "additional_processing": "None; source RGB appearance preserved."
+        },
+        {
+          "filename": "terminal.png",
+          "source": "wallpapers/collections/tron-legacy/originals/terminal-original.webp",
+          "crop_box_source_pixels": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "resampling": "None; native generated resolution",
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "upscaled": false,
+          "additional_processing": {
+            "operation": "Pillow Image.blend(base, source, alpha)",
+            "base_RGB": [
+              2,
+              4,
+              7
+            ],
+            "source_weight": 0.6,
+            "base_weight": 0.4,
+            "formula": "Each output RGB channel is the Pillow blend of 40 percent solid RGB(2,4,7) and 60 percent corresponding source channel."
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-expanse",
+      "title": "The Expanse",
+      "provenance": "Desktop generation corroborated by the archived creation session; terminal generation and processing recorded in its manifest.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/the-expanse/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 3266391,
+          "sha256": "d5fa19fbf1c1db4b5c4c5b90f0a8caeb2fd049770fc9d4c8ee2bdda874c96f73",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/the-expanse/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 1125338,
+          "sha256": "8226e4046537931e280037933f4b085f5366a0d21a7c00e2eef03738882e5d86",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/the-expanse/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 3025207,
+          "sha256": "3d39a27f2b7ff777d88dd81c6554eec6a68ed2c20179fafc049db3a590011dc4",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/the-expanse/terminal.png",
+          "role": "terminal",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1039827,
+          "sha256": "5ac01afeff8b4e1e5a4a52796140228fb51ab8b81aa54e2745e32253ef065cdb",
+          "source_filename": "expanse-terminal.png"
+        },
+        {
+          "path": "wallpapers/collections/the-expanse/originals/rocinante-jupiter.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1935,
+            812
+          ],
+          "bytes": 1206420,
+          "sha256": "768bdb9e548e541e6b0d4ed1c29ced119f005f65e3bbc3bb49b7f1b2ef4864f2",
+          "source_filename": "rocinante-jupiter.webp"
+        },
+        {
+          "path": "wallpapers/collections/the-expanse/originals/cinturon.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1983,
+            793
+          ],
+          "bytes": 900190,
+          "sha256": "cec8ba99d436146b16241e88fd8f735e56703a57ef62665792536f087a4178ff",
+          "source_filename": "cinturon.webp"
+        },
+        {
+          "path": "wallpapers/collections/the-expanse/originals/anillo.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1086,
+            1448
+          ],
+          "bytes": 1453114,
+          "sha256": "612796208f5b038807572cd66cf5255d4fd03eb758be18a31e8d9599ea374426",
+          "source_filename": "anillo.webp"
+        },
+        {
+          "path": "wallpapers/collections/the-expanse/originals/terminal-original.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 868926,
+          "sha256": "05ccf7400e2d9e37518c9e20b019f0fbea7fb29d5442906d209819eeea812c69",
+          "source_filename": "expanse-terminal-original.webp"
+        }
+      ],
+      "terminal_pack": "the-expanse",
+      "preview": "wallpapers/collections/the-expanse/preview.webp",
+      "processing": [
+        {
+          "output": "terminal.png",
+          "recipe": "Pillow Image.blend(Image.new(\"RGB\", source.size, (7,11,16)), source.convert(\"RGB\"), 0.62); no resize"
+        }
+      ],
+      "generation_records": [
+        {
+          "scope": "desktop",
+          "record": "Three original image-generation requests and monitor exports recorded in the creation session."
+        },
+        {
+          "scope": "terminal",
+          "tool": "generate_image",
+          "reported_model": "gpt-image-2-codex",
+          "reported_quality": "low",
+          "reference_role": "Generated desktop image used only as palette/style reference."
+        }
+      ]
+    },
+    {
+      "id": "altered-carbon",
+      "title": "Altered Carbon",
+      "provenance": "Generation task and completed collection corroborated by the archived creation session; per-file provider and processing metadata were not retained.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/altered-carbon/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 5650355,
+          "sha256": "705782d9cc3f0eb2c05dacaedc65140491a8a6a5035c9400b2c774a5948897a2",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/altered-carbon/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 2946523,
+          "sha256": "471af74563228ac3bd6e5a27b180878e57c5f45dc6e41b69061b34fcb81ba5a3",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/altered-carbon/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 4642885,
+          "sha256": "baaea0f634366306f76ab485c568c858df93a9f5f3e6b822a9f4716b3837f0ac",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/altered-carbon/originals/ultragear-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1847238,
+          "sha256": "bc0bfe78d10d40df9e2fed933b2b4cba1f662041bde7b3e682d0126bec237127",
+          "source_filename": "ultragear-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/altered-carbon/originals/xeneon-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            2170,
+            725
+          ],
+          "bytes": 2063372,
+          "sha256": "84b5321fbb2c7dad2efec6189e23118b7a992276eb44f58c1864a7c803a8948d",
+          "source_filename": "xeneon-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/altered-carbon/originals/sdqhd-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1254,
+            1254
+          ],
+          "bytes": 2321566,
+          "sha256": "eddf2f2b385f23ec76051a9fe90c58b1c15b5cf623fca038e4d40306e9cfc560",
+          "source_filename": "sdqhd-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/altered-carbon/originals/sdqhd-portrait-original.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 2013746,
+          "sha256": "dbda4e0c92eb4db724e325fc3884d286ed5d23c885b90fd4929894aa7424036d",
+          "source_filename": "sdqhd-portrait-original.webp"
+        },
+        {
+          "path": "wallpapers/collections/altered-carbon/originals/sdqhd-portrait-refinement.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1888064,
+          "sha256": "3f1f6f8a9de043db862c70bdd848cbe0193de4a2e054b0b2ff319943bee53f0a",
+          "source_filename": "sdqhd-portrait-refinement.webp"
+        }
+      ],
+      "preview": "wallpapers/collections/altered-carbon/preview.webp"
+    },
+    {
+      "id": "ghost-in-the-shell",
+      "title": "Ghost in the Shell",
+      "provenance": "Generation task and completed collection corroborated by the archived creation session; per-file provider and processing metadata were not retained.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 5461014,
+          "sha256": "27429466bb3b5d2ff48cf83f8ffd16cdebbe420b078fad483cd70ce4898066c1",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 2438310,
+          "sha256": "2488c70053ed80763b2752165706cd82e10d025025923b692de19983a4e2700d",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 3652393,
+          "sha256": "4951d18547b9ad9ac6967fd9e402c7999a48afb352b1695aa1834e874fce5f69",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/originals/ultragear-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1736478,
+          "sha256": "c333e01b927fcbb9adcd03b44742f17ddf5257dfe19c3500083888994a6e7abe",
+          "source_filename": "ultragear-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/originals/xeneon-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            2089,
+            753
+          ],
+          "bytes": 1636320,
+          "sha256": "a83b1b7c6f1cb8de98b870b80b7f2154086bf0bd255b1ff54c758c7553e3033d",
+          "source_filename": "xeneon-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/originals/sdqhd-source.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1743804,
+          "sha256": "88d0841b2bebef7e68f317d0b98b434db28baa75e96fd257ab8a35da7bef7026",
+          "source_filename": "sdqhd-source.webp"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/night/ultragear-3440x1440.png",
+          "role": "desktop-night",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 4571045,
+          "sha256": "9ee856929c87d4a2f17c8478a5b32ca46c490582ed4297788c8107de7eabcac0",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/night/xeneon-2560x720.png",
+          "role": "desktop-night",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 2028986,
+          "sha256": "10085a5e8d0881e3aa926717c112f9fd770d71d2d2c00faf1cb1b2f2829f8fbd",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/ghost-in-the-shell/night/sdqhd-1600x1800.png",
+          "role": "desktop-night",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 3042052,
+          "sha256": "7e2a7e1fa71f54caba96b5b66b629085fc20ca120ffa32782d0ccbadbbbb0adf",
+          "source_filename": "sdqhd-1600x1800.png"
+        }
+      ],
+      "preview": "wallpapers/collections/ghost-in-the-shell/preview.webp"
+    },
+    {
+      "id": "blade-runner",
+      "title": "Blade Runner",
+      "provenance": "Generation task and completed collection corroborated by the archived creation session; per-file provider and processing metadata were not retained.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/blade-runner/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 4413186,
+          "sha256": "5e66bcb8d6dcf7156c0d26da08d2f060aef51a46a36e5ad18900386a2ff8c55e",
+          "source_filename": "ultragear-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/blade-runner/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 1632965,
+          "sha256": "554f73e3d3819ced1850e39fe412ea7e42974da0791584e25ed9049a4ed51100",
+          "source_filename": "xeneon-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/blade-runner/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 3695126,
+          "sha256": "0bd02c416594ddb9f8c7a9c17f058d1f79d4a1e46787149d2f109fbe3ffdee16",
+          "source_filename": "sdqhd-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/blade-runner/originals/ultragear-3440x1440.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1657196,
+          "sha256": "1f0299cac84f82c089ed05ba68c31559712cce76acc1649368d35306dafee281",
+          "source_filename": "ultragear-3440x1440.webp"
+        },
+        {
+          "path": "wallpapers/collections/blade-runner/originals/xeneon-2560x720.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1426380,
+          "sha256": "a95f1d102e0c12c43f32aa7a4b62b76956d6350692469e6e4b082b06724ddafe",
+          "source_filename": "xeneon-2560x720.webp"
+        },
+        {
+          "path": "wallpapers/collections/blade-runner/originals/sdqhd-1600x1800.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1790874,
+          "sha256": "1ee074b715432244aba3aaefc8e60c62fb8f5cf0e1219d24431255af7b0bbbf5",
+          "source_filename": "sdqhd-1600x1800.webp"
+        }
+      ],
+      "preview": "wallpapers/collections/blade-runner/preview.webp"
+    },
+    {
+      "id": "edgerunners",
+      "title": "Cyberpunk: Edgerunners — original set",
+      "provenance": "Three generation requests recorded in the archived creation session; monitor exports were created from the preserved sources.",
+      "assets": [
+        {
+          "path": "wallpapers/collections/edgerunners/ultragear-3440x1440.png",
+          "role": "desktop",
+          "dimensions": [
+            3440,
+            1440
+          ],
+          "bytes": 4708742,
+          "sha256": "7bf66576437d37f91a6b8929da7557b87acf2e695ce8ea0ed8b466bef3b21085",
+          "source_filename": "01-night-city-LG-ULTRAGEAR-3440x1440.png"
+        },
+        {
+          "path": "wallpapers/collections/edgerunners/xeneon-2560x720.png",
+          "role": "desktop",
+          "dimensions": [
+            2560,
+            720
+          ],
+          "bytes": 2521457,
+          "sha256": "c934949457de5ed66e91c17aafbbb087a203e6aba52bddde659f0cce92d83182",
+          "source_filename": "02-neon-drive-XENEON-EDGE-2560x720.png"
+        },
+        {
+          "path": "wallpapers/collections/edgerunners/sdqhd-1600x1800.png",
+          "role": "desktop",
+          "dimensions": [
+            1600,
+            1800
+          ],
+          "bytes": 3714203,
+          "sha256": "cd561e1b1704499a7579f59c0f4aac031dc00143e0ccbf8ab5ebeb4cbe51af42",
+          "source_filename": "03-lucy-moon-LG-SDQHD-1600x1800.png"
+        },
+        {
+          "path": "wallpapers/collections/edgerunners/originals/01-night-city-LG-ULTRAGEAR-3440x1440.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1791398,
+          "sha256": "b2bee7d224036b64e2da5d44ad261103701220fc4ba21c1e4a22a5db8f4705d7",
+          "source_filename": "01-night-city-LG-ULTRAGEAR-3440x1440.webp"
+        },
+        {
+          "path": "wallpapers/collections/edgerunners/originals/02-neon-drive-XENEON-EDGE-2560x720.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "bytes": 1746500,
+          "sha256": "f21a80e62075a52e958d66c9f83593224e3c7d030368decc28ef42243d5c1094",
+          "source_filename": "02-neon-drive-XENEON-EDGE-2560x720.webp"
+        },
+        {
+          "path": "wallpapers/collections/edgerunners/originals/03-lucy-moon-LG-SDQHD-1600x1800.webp",
+          "role": "generated-source",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "bytes": 1975976,
+          "sha256": "499c0ceef3dd53976df504a358fc38d7c639c464ee6f7fe16b341804e0fda3c1",
+          "source_filename": "03-lucy-moon-LG-SDQHD-1600x1800.webp"
+        }
+      ],
+      "preview": "wallpapers/collections/edgerunners/preview.webp",
+      "generation_records": [
+        {
+          "subject": "Create an exceptionally beautiful desktop wallpaper inspired by Cyberpunk: Edgerunners, an emotionally resonant anime cinematic environment painting, NOT a poster. Night City seen from a rain-wet rooftop far above the city, a vast layered skyline of elegant dense megastructures, elevated railways, cyan window constellations, distant magenta neon and a pale enormous moon through violet haze. Two small recognizable rear-view figures, David Martinez in his iconic yellow high-collar jacket and Lucy with short white hair in her black-and-white netrunner outfit, quietly sit side by side on a rooftop ledge in the right third, gazing across the city. Their scale is small, about 16 percent of image height; architecture and atmosphere are the main subjects. Beautiful melancholy, intimacy against impossible urban scale, not violence. Design for a VERY WIDE 3440x1440 wallpaper crop: keep ALL important subjects including the figures, moon and primary skyline INSIDE THE CENTRAL 60 PERCENT OF THE IMAGE HEIGHT, with sky above and rooftop shadow below as expendable crop margins. Keep the left quarter relatively calm and dark for desktop icons. Distinct architecture, believable perspective, delicate distant lights, controlled bloom, refined atmospheric depth, crisp silhouettes, luxurious visual hierarchy. Cohesive series palette: deep midnight navy and indigo, electric turquoise, restrained hot pink, small warm amber-yellow accents. Beautiful cel-shaded anime characters integrated into detailed painterly anime background art. No typography, no letters, no logos, no watermarks, no borders, no collage, no split panels.",
+          "aspect_ratio": "16:9",
+          "image_size": "1536x1024"
+        },
+        {
+          "subject": "Create a new cinematic anime desktop wallpaper for the EXTREMELY WIDE 2560x720 Corsair XENEON EDGE monitor, part of a coordinated Cyberpunk: Edgerunners inspired collection. Image 1 is a STYLE AND PALETTE reference only: inherit its midnight navy, violet mist, cyan architectural lighting, restrained magenta and warm yellow accents, detailed painterly anime background and crisp cel shading. Do NOT copy its composition or the seated characters. New scene: a beautiful low-slung yellow retrofuturist sports coupe seen in clean side/rear three-quarter view on the left third of an elevated rain-wet expressway, tiny red tail lights, glossy asphalt reflecting long turquoise and magenta streaks. The expressway sweeps gently across the scene into a huge distant night city, dark mountain silhouettes and violet atmospheric haze, a small pale moon in the far right sky. Compose for a long cinematic horizontal ribbon, quiet and elegant rather than crowded. CRITICAL CROP SAFETY: all of the car, road bend, moon and luminous skyline must fit inside a horizontal strip from 30 to 70 percent of the image height; the whole car is small, no more than 15 percent of image height. Upper 30 percent is spare navy sky, lower 30 percent is dark expendable road foreground. No tall important foreground objects. The final 3.56:1 crop will remove the top and bottom. Impossibly beautiful reflective light, believable car wheels and perspective, carefully controlled glow, architectural depth, melancholy night drive. No humans, no text, no lettering, no logos, no watermarks, no collage, no panel divisions.",
+          "aspect_ratio": "16:9",
+          "image_size": "1536x1024"
+        },
+        {
+          "subject": "Create an exceptionally beautiful fine-art anime desktop wallpaper inspired by Lucy from Cyberpunk: Edgerunners, for a 1600x1800 almost-square portrait LG DualUp monitor. Image 1 is the STYLE AND PALETTE reference only: inherit its midnight indigo, violet atmosphere, turquoise city lights, restrained hot pink, pale lilac moonlight, crisp cel shading integrated with detailed painterly anime architectural backgrounds. Do not duplicate its two-character scene. A new intimate contemplative composition: Lucy, recognizable short asymmetrical white hair with subtle pastel cyan and pink edges, black and white futuristic netrunner outfit and cropped white jacket, standing in side profile facing left on a rain-wet rooftop balcony, looking up toward an enormous luminous pale lilac moon behind thin drifting violet clouds. One person only, elegant relaxed fully plausible anatomy, both arms relaxed and hands unobtrusive. Lucy is placed in the lower-right half; frame her from head to mid-thigh with the bottom edge intentionally at mid-thigh rather than accidentally cutting feet. Her figure takes about one third of image width. An immense layered night city falls away below, tiny cyan windows, wisps of rooftop steam, a few glowing magenta accents. Moon upper left, character lower right, architectural verticals balanced by ample calm dark sky. Important composition inside the central 74 percent of image HEIGHT, allowing a crop to near-square 8:9. Hair and moon must not be cut by the crop, no crucial details at top or bottom edge. Refined cinematic lighting: soft lunar rim on white hair and coat, delicate cyan reflected light, deep beautiful indigo shadows with readable detail. Quiet longing and wonder, not fan-service, no pin-up pose. No typography, no letters, no logos, no watermark, no borders, no collage.",
+          "aspect_ratio": "3:4",
+          "image_size": "1024x1536"
+        }
+      ]
+    }
+  ],
+  "terminal_exports": [
+    {
+      "pack": "the-expanse",
+      "path": "wallpapers/the-expanse.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 801178,
+      "sha256": "1d994f473d2fbdd0ecd95304250000341025eeaec2cfc67b3862c5c69326ae67",
+      "encoding": "lossless WebP, RGB pixels identical to selected terminal PNG; ancillary metadata omitted"
+    },
+    {
+      "pack": "battlestar-galactica",
+      "path": "wallpapers/battlestar-galactica.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 468520,
+      "sha256": "b13b591e9b1917002733dbc079e416b438467f6779e579e10f35269460550f46",
+      "encoding": "lossless WebP, RGB pixels identical to selected terminal PNG; ancillary metadata omitted"
+    },
+    {
+      "pack": "dune",
+      "path": "wallpapers/dune.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 785276,
+      "sha256": "1db4484834994c0c7cee97803775569dade9c313b7556e5784d3e588ccf9e47c",
+      "encoding": "lossless WebP, RGB pixels identical to selected terminal PNG; ancillary metadata omitted"
+    },
+    {
+      "pack": "tron-legacy",
+      "path": "wallpapers/tron-legacy.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 500236,
+      "sha256": "87d7d4fe1daf18bee3fef730db222276273da44a3f4cd319b80ddd07368bfa64",
+      "encoding": "lossless WebP, RGB pixels identical to selected terminal PNG; ancillary metadata omitted"
+    },
+    {
+      "pack": "cyberpunk-edgerunners-night",
+      "path": "wallpapers/cyberpunk-edgerunners-night.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 881956,
+      "sha256": "37771b820347427893714e9546e5cfb6671ac682206c449fcd8d14f8d307f97f",
+      "encoding": "lossless WebP, RGB pixels identical to selected terminal PNG; ancillary metadata omitted"
+    }
+  ],
+  "exclusions": [
+    "Duplicate monitor/terminal mirrors and ZIP packaging",
+    "Personal photos, live terminal captures, QA and private backups",
+    "Three legacy JPEGs with unverified provenance, omitted from the curated public selection"
+  ],
+  "duplicate_mirrors": [
+    {
+      "omitted_alias": "per-monitor/LG-ULTRAGEAR/01-edgerunners.png",
+      "canonical": "wallpapers/collections/edgerunners/ultragear-3440x1440.png",
+      "sha256": "7bf66576437d37f91a6b8929da7557b87acf2e695ce8ea0ed8b466bef3b21085"
+    },
+    {
+      "omitted_alias": "per-monitor/LG-ULTRAGEAR/02-ghost-in-the-shell.png",
+      "canonical": "wallpapers/collections/ghost-in-the-shell/ultragear-3440x1440.png",
+      "sha256": "27429466bb3b5d2ff48cf83f8ffd16cdebbe420b078fad483cd70ce4898066c1"
+    },
+    {
+      "omitted_alias": "per-monitor/LG-ULTRAGEAR/04-blade-runner.png",
+      "canonical": "wallpapers/collections/blade-runner/ultragear-3440x1440.png",
+      "sha256": "5e66bcb8d6dcf7156c0d26da08d2f060aef51a46a36e5ad18900386a2ff8c55e"
+    },
+    {
+      "omitted_alias": "per-monitor/XENEON-EDGE/01-edgerunners.png",
+      "canonical": "wallpapers/collections/edgerunners/xeneon-2560x720.png",
+      "sha256": "c934949457de5ed66e91c17aafbbb087a203e6aba52bddde659f0cce92d83182"
+    },
+    {
+      "omitted_alias": "per-monitor/XENEON-EDGE/02-ghost-in-the-shell.png",
+      "canonical": "wallpapers/collections/ghost-in-the-shell/xeneon-2560x720.png",
+      "sha256": "2488c70053ed80763b2752165706cd82e10d025025923b692de19983a4e2700d"
+    },
+    {
+      "omitted_alias": "per-monitor/XENEON-EDGE/04-blade-runner.png",
+      "canonical": "wallpapers/collections/blade-runner/xeneon-2560x720.png",
+      "sha256": "554f73e3d3819ced1850e39fe412ea7e42974da0791584e25ed9049a4ed51100"
+    },
+    {
+      "omitted_alias": "per-monitor/LG-SDQHD/01-edgerunners.png",
+      "canonical": "wallpapers/collections/edgerunners/sdqhd-1600x1800.png",
+      "sha256": "cd561e1b1704499a7579f59c0f4aac031dc00143e0ccbf8ab5ebeb4cbe51af42"
+    },
+    {
+      "omitted_alias": "per-monitor/LG-SDQHD/02-ghost-in-the-shell.png",
+      "canonical": "wallpapers/collections/ghost-in-the-shell/sdqhd-1600x1800.png",
+      "sha256": "4951d18547b9ad9ac6967fd9e402c7999a48afb352b1695aa1834e874fce5f69"
+    },
+    {
+      "omitted_alias": "per-monitor/LG-SDQHD/04-blade-runner.png",
+      "canonical": "wallpapers/collections/blade-runner/sdqhd-1600x1800.png",
+      "sha256": "0bd02c416594ddb9f8c7a9c17f058d1f79d4a1e46787149d2f109fbe3ffdee16"
+    },
+    {
+      "omitted_alias": "installed-terminal/battlestar-galactica.png",
+      "canonical": "wallpapers/collections/battlestar-galactica/terminal.png",
+      "sha256": "a6c37ce5f8d7985620ff6a9ffd92fcca9b0f73c2b919ce3d318ccd9ed0967c58"
+    },
+    {
+      "omitted_alias": "installed-terminal/dune.png",
+      "canonical": "wallpapers/collections/dune/terminal.png",
+      "sha256": "19465970316947e03b32dc7f3ec577701d5cbccdcf05c8222f1507429f2b3cce"
+    },
+    {
+      "omitted_alias": "installed-terminal/tron-legacy.png",
+      "canonical": "wallpapers/collections/tron-legacy/terminal.png",
+      "sha256": "829be6714c2bbc4c42209d84d0730ad93f448af5bf399deee26f4d844009fef1"
+    },
+    {
+      "omitted_alias": "installed-terminal/cyberpunk-edgerunners-night.png",
+      "canonical": "wallpapers/collections/cyberpunk-edgerunners-night/terminal.png",
+      "sha256": "87a7927141997d3637a28b6646353c082e6561b3b045eb35f59fb98262bef0ce"
+    }
+  ],
+  "counts": {
+    "collections": 9,
+    "desktop_wallpapers": 30,
+    "terminal_packs": 14,
+    "retained_generation_sources_and_alternatives": 37,
+    "canonical_collection_files": 72,
+    "additional_lossless_terminal_encodings": 5,
+    "baseline_terminal_images": 9
+  },
+  "baseline_terminal_packs": [
+    {
+      "path": "wallpapers/replicant.webp",
+      "dimensions": [
+        1916,
+        821
+      ],
+      "bytes": 1169414,
+      "sha256": "5fda0e1507fe5c829a769e5ee80a3092e27d2aebd93f00f3b6e5893cd7f2da05",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/dunes.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1182674,
+      "sha256": "2458dd8cd7ab2447572b8297415b86131af95e29e2a931bf8361e494b36b0c67",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/grid.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1045668,
+      "sha256": "a66b4d27bf02ffeecd32dc5120b7fe31757dab1d139712445c5f94fe510b90c5",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/tron-ares.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1303290,
+      "sha256": "4c69fb25e31d67a4ee0171bf783ba3b90f30aa77d7debf9315cbb3c51dc903db",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/altered-carbon.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1360042,
+      "sha256": "a6209626a0a60dbf88a37ce3d2fe8d76ed4cfc3c7114f294396f693723d4bbd4",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/cyberpunk.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1431892,
+      "sha256": "9b1ea23a20ae4e87919feb6ce6509aa09e3274613db466df59d62be1aa6e0016",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/ghost-shell.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1279800,
+      "sha256": "3dd5e5029c94be217c61de229b702b3f33b01508c34b87cee6800bee40aeaa3b",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/deus-ex.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1389192,
+      "sha256": "6d411f0861185025541e180f9870ade692a8252989e0bb96ccdd0141de1c480d",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    },
+    {
+      "path": "wallpapers/retro-future.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1157486,
+      "sha256": "b38cb1c0821e90d07292e0a93480bdba08f219efb9f12987370123564c33a0aa",
+      "provenance": "assets/PROVENANCE.md, original 2026-10-12 generation"
+    }
+  ]
+}

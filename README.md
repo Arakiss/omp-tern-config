@@ -27,7 +27,7 @@ Keep the coding workflow in omp and Tern's native surfaces instead of layering a
 - **Readable terminal defaults:** Titanium styling, solid chrome, contrast correction and native chat.
 - **Native integrations:** Tern's attention inbox and optional local CUA computer use with explicit authentication boundaries.
 - **Explicit safety boundaries:** preserved approval policy by default, private local backups and no permission bypasses.
-- **Optional visual controls:** nine original packs with `tern-bg set`, `next` and `prev`, plus opt-in macOS rotation.
+- **Optional visual controls:** fourteen terminal packs with `tern-bg set`, `next` and `prev`, plus opt-in macOS rotation and a [multi-monitor wallpaper gallery](wallpapers/collections/README.md).
 - **Reversible futuristic chrome:** static neon tabs and panel accents with `tern-ui on|off|status`; off by default.
 
 ## Quick start
@@ -52,7 +52,7 @@ tern-ui status
 
 Omit `--wallpaper ghost-shell` to use the default `replicant` pack. From an existing clone, start at the dry-run command.
 
-The installer merges the shipped presets into existing settings, preserves unrelated preferences and custom model roles, backs up settings and any existing wallpaper plugin outside the repository, installs the local wallpaper/HUD plugins and `tern-bg`/`tern-ui` commands, and requests a live reload. A new HUD installation is disabled; reinstalling preserves its existing mode. If live reload fails, reopen Tern. Backups are printed by the installer. A dry run changes no files and installs neither command.
+The installer merges the shipped presets into existing settings, preserves unrelated preferences and model roles not named by the preset, backs up settings and any existing wallpaper plugin outside the repository, installs the local wallpaper/HUD plugins and `tern-bg`/`tern-ui` commands, and requests a live reload. Named preset roles such as `default`, `plan` and `slow` are replaced. A new HUD installation is disabled; reinstalling preserves its existing mode. If live reload fails, reopen Tern. Backups are printed by the installer. A dry run changes no files and installs neither command. For an existing working setup, use [visual-only adoption](docs/configuration.md) instead of merging functional presets.
 
 `tern-bg` and `tern-ui` are symlinks at `~/.local/bin/` pointing to this clone's `tern_bg.py` and `tern_ui.py`; unrelated executables at those paths are never overwritten. **Keep the repository available at its installed location**: the commands and rotation need its code and wallpapers. If `~/.local/bin` is not already on PATH, add the `export PATH` line above to your shell configuration, or invoke the commands by their full path. They work from any working directory.
 
@@ -132,7 +132,7 @@ Tern also exposes native file, browser, Git, SQLite, notebook and canvas blocks.
 
 ## Wallpaper and customization
 
-Nine original generated images are included. None is a film still, game screenshot or downloaded promotional asset; see [provenance](assets/PROVENANCE.md).
+Fourteen generated terminal backgrounds are included, alongside [desktop collections, dark variants and generated source artwork](wallpapers/collections/README.md). The original nine packs are listed below; generation and processing details are in [provenance](assets/PROVENANCE.md).
 
 | Pack | Art direction | Preview |
 | --- | --- | --- |
@@ -146,6 +146,14 @@ Nine original generated images are included. None is a film still, game screensh
 | `deus-ex` | Deus Ex-inspired black-and-gold architecture and geometric light | [![Deus Ex](wallpapers/deus-ex.webp)](wallpapers/deus-ex.webp) |
 | `retro-future` | Pixel-art CRT workstation, cassette tapes, neon skyline and amber moon | [![Retro Future](wallpapers/retro-future.webp)](wallpapers/retro-future.webp) |
 
+The newer terminal packs are `the-expanse`, `battlestar-galactica`, `dune`, `tron-legacy` and `cyberpunk-edgerunners-night`. Their companion desktop files are in the gallery. `dune` is the newer dark set; `dunes` remains the original desert pack.
+
+```sh
+tern-bg set cyberpunk-edgerunners-night
+```
+
+These commands change Tern's background only. Download desktop files from the gallery and apply them in your operating system's wallpaper settings.
+
 ### Wallpaper controls and rotation
 
 After installation, change only the wallpaper with `tern-bg`. These commands leave omp models and approval policy, MCP, Tern preferences and skills untouched. The installed Tern API reloads native plugins globally; only this pack's wallpaper files are modified. No restart or session close is requested.
@@ -155,13 +163,13 @@ After installation, change only the wallpaper with `tern-bg`. These commands lea
 | `tern-bg list` | List the available packs in rotation order |
 | `tern-bg current` | Show the selected pack |
 | `tern-bg set cyberpunk` | Apply a named pack |
-| `tern-bg next` | Advance one pack, wrapping after `retro-future` |
+| `tern-bg next` | Advance one pack, wrapping after the last entry in `tern-bg list` |
 | `tern-bg prev` | Go back one pack, wrapping before `replicant` |
 | `tern-bg rotate --every 15m` | Opt in to a macOS schedule that advances every 15 minutes |
 | `tern-bg status` | Show the schedule's configured and loaded state |
 | `tern-bg stop` | Remove this project's schedule; leave the current image |
 
-The order is `replicant → dunes → grid → tron-ares → altered-carbon → cyberpunk → ghost-shell → deus-ex → retro-future`, then back to `replicant`. If the command has no saved state, it recognizes the installed image from a previous full installation before advancing.
+The original nine packs retain their order, followed by `the-expanse`, `battlestar-galactica`, `dune`, `tron-legacy` and `cyberpunk-edgerunners-night`, then back to `replicant`. If the command has no saved state, it recognizes the installed image from a previous full installation before advancing.
 
 **Periodic rotation is optional and macOS-only; nothing enables it by default.** To move to the next pack every 15 minutes:
 
@@ -188,7 +196,7 @@ tern-bg status
 
 The red `tron-ares` pack refers to [Disney's TRON: Ares (2025)](https://movies.disney.com/tron-ares), distinct from the older blue/cyan-inspired `grid` pack. All packs are original interpretations, not official franchise assets.
 
-The stylesheet uses a dark base and a cover crop. Wide displays show more artwork; narrower panes crop it. Cyberpunk, Ghost in the Shell and Retro Future follow the original Replicant/Dunes composition: a calm naturally dark text area and luminous detail on the right, **without a global dimming filter**. The small progress strip has its own opaque backing; native readable editor and tool-card surfaces are retained.
+The stylesheet uses a dark base and a cover crop. Wide displays show more artwork; narrower panes crop it. The original Cyberpunk, Ghost in the Shell and Retro Future packs have a naturally dark text area and luminous detail on the right. The newer night collections use additional tonal darkening recorded in the gallery catalogue. Native editor and tool-card surfaces retain their own readable backgrounds.
 
 ## Optional retro-future HUD
 

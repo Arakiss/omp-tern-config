@@ -1,8 +1,8 @@
 # Wallpaper provenance
 
-All nine WebP images in `wallpapers/` are original AI-generated assets, not movie/series frames, game screenshots or downloaded promotional images. No input film stills, logos or recognizable actors were supplied.
+The original nine WebP images in the root of `wallpapers/` are AI-generated assets, not movie/series frames, game screenshots or downloaded promotional images. No input film stills, logos or recognizable actors were supplied for these nine images.
 
-Generated on 2026-10-12 through omp's `generate_image` tool using the OpenAI Codex image transport. The provider reported `gpt-image-2-codex`.
+They were generated on 2026-10-12 through omp's `generate_image` tool using the OpenAI Codex image transport. The provider reported `gpt-image-2-codex`.
 
 | File | Returned dimensions | Returned quality | Art direction |
 | --- | --- | --- | --- |
@@ -21,6 +21,17 @@ Cyberpunk, Ghost in the Shell and Retro Future were recomposed using their origi
 The repository's MIT permission grant applies to the assets to the extent contributors hold applicable rights. AI-generated images may not qualify for copyright protection in every jurisdiction. No affiliation with or endorsement by the respective film, series or game rights holders, omp, Tern or OpenAI is implied.
 
 `assets/preview.png` is rendered by Tern's real headless renderer using the Replicant pack. Its text is a demonstration, not a benchmark or fabricated agent session. Private CUA screenshots, process identifiers and authentication dialogs are not included.
+
+## Desktop and night collections
+
+The [collection gallery](../wallpapers/collections/README.md) includes generated desktop backgrounds, terminal companions and alternate artwork from later sessions. Its [catalogue](../wallpapers/collections/catalog.json) records public relative filenames, actual dimensions, SHA-256 hashes, source/derivative roles and byte-identical duplicate mappings. Generated source images are preserved separately from resized or darkened deliverables; monitor-sized exports must not be mistaken for native-resolution generations.
+
+The five newer root-level terminal packs are lossless WebP encodings of their selected PNG companions. Conversion strips ancillary metadata and preserves decoded RGB pixels. Their catalogue entries identify the corresponding collection files. They use the same `tern-bg` application path as the original nine packs.
+
+These are unofficial fan-art interpretations. Some include recognizable fictional characters or franchise-specific designs. The repository cannot grant rights to underlying characters, trademarks or other third-party material; no official affiliation or endorsement is implied. The existing permission grant applies only to rights the contributors can grant. Images of unknown provenance are not silently classified as original artwork.
+
+Only artwork and sanitized technical provenance are published. Personal photos, terminal screenshots, private configuration backups, home-directory paths and local machine/session identifiers are excluded.
+
 
 ## English native coding demo
 

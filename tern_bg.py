@@ -23,6 +23,8 @@ ROOT = SOURCE.parent
 WALLPAPERS = (
     "replicant", "dunes", "grid", "tron-ares", "altered-carbon",
     "cyberpunk", "ghost-shell", "deus-ex", "retro-future",
+    "the-expanse", "battlestar-galactica", "dune", "tron-legacy",
+    "cyberpunk-edgerunners-night",
 )
 PLUGIN_ID = "omp-tern-config-wallpaper"
 AGENT_LABEL = "io.github.arakiss.omp-tern-config.wallpaper"

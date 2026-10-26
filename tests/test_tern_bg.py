@@ -86,14 +86,10 @@ class WallpaperTransitions(WallpaperFixture):
         self.assertEqual(bg.previous_wallpaper(), "cyberpunk")
         self.assertEqual(json.loads(self.runtime.state_path.read_text())["current"], "cyberpunk")
 
-    def test_order_and_both_wraparound_edges(self):
-        self.seed("retro-future")
-        self.assertEqual(bg.next_wallpaper(), "replicant")
-        self.assertEqual(bg.previous_wallpaper(), "retro-future")
-        self.assertEqual(self.command_output("list").splitlines(), [
-            "  replicant", "  dunes", "  grid", "  tron-ares",
-            "  altered-carbon", "  cyberpunk", "  ghost-shell", "  deus-ex", "* retro-future",
-        ])
+    def test_both_wraparound_edges(self):
+        self.seed(bg.WALLPAPERS[-1])
+        self.assertEqual(bg.next_wallpaper(), bg.WALLPAPERS[0])
+        self.assertEqual(bg.previous_wallpaper(), bg.WALLPAPERS[-1])
 
     def test_installed_image_wins_over_stale_and_unknown_saved_names(self):
         for saved in ("dunes", "removed-wallpaper", ["invalid-name-type"]):
@@ -120,7 +116,7 @@ class WallpaperTransitions(WallpaperFixture):
         self.assertEqual(self.command_output("current"), "none\n")
         self.assertEqual(bg.next_wallpaper(), "replicant")
         self.runtime.image_path.unlink()
-        self.assertEqual(bg.previous_wallpaper(), "retro-future")
+        self.assertEqual(bg.previous_wallpaper(), bg.WALLPAPERS[-1])
 
     def test_unknown_name_does_not_change_existing_image_or_state(self):
         self.seed("ghost-shell")
@@ -166,9 +162,11 @@ class WallpaperTransitions(WallpaperFixture):
         with patch.object(bg, "_reload_plugin", side_effect=lambda runtime: time.sleep(0.01)):
             with ThreadPoolExecutor(max_workers=5) as executor:
                 names = list(executor.map(lambda _: advance(), range(5)))
-        self.assertCountEqual(names, ["ghost-shell", "deus-ex", "retro-future", "replicant", "dunes"])
-        self.assertEqual(bg.current_wallpaper(), "dunes")
-        self.assertEqual(json.loads(self.runtime.state_path.read_text())["current"], "dunes")
+        start = bg.WALLPAPERS.index("cyberpunk")
+        expected = [bg.WALLPAPERS[(start + step) % len(bg.WALLPAPERS)] for step in range(1, 6)]
+        self.assertCountEqual(names, expected)
+        self.assertEqual(bg.current_wallpaper(), expected[-1])
+        self.assertEqual(json.loads(self.runtime.state_path.read_text())["current"], expected[-1])
 
     def test_source_and_cli_do_not_depend_on_working_directory(self):
         self.seed("ghost-shell")

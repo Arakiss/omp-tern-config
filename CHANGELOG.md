@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.0 — 2026-10-26
+
+- Published nine desktop collections with 30 monitor-sized wallpapers, five terminal companions and 37 preserved generated sources or composition alternatives.
+- Added an artwork-only gallery and a sanitized catalogue with dimensions, SHA-256 hashes, generation/processing records and 13 verified duplicate-mirror references.
+- Added The Expanse, Battlestar Galactica, Dune, TRON: Legacy and Cyberpunk / Edgerunners Night to the existing terminal CLI, retaining the original nine packs and opt-in rotation.
+- Encoded the five terminal companions as lossless WebP while preserving decoded RGB pixels.
+- Matched the current Tern background surface and right-center cover alignment; compact native tool styling remains independent.
+- Documented visual-only adoption for existing setups and clarified that a full preset installation replaces overlapping model roles.
+- Excluded private settings, live terminal captures, backups and three unverified legacy JPEGs from the curated publication.
+
 ## 1.3.0 — 2026-10-12
 
 - Added the standard-library `tern-bg` CLI with `list`, `current`, `set`, `next` and `prev` controls over the nine-pack catalogue.
